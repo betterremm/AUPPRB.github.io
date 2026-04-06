@@ -19,7 +19,6 @@ const groupsContainer = document.getElementById("groups");
 const weekDaysContainer = document.getElementById("week-days");
 const scheduleContainer = document.getElementById("schedule-container");
 const currentDayLabel = document.getElementById("current-day");
-const calendarButton = document.getElementById("calendar");
 const calendarInput = document.getElementById("calendar-input");
 const settingsButton = document.getElementById("settings-btn");
 const exitButton = document.getElementById("exit");
@@ -93,7 +92,19 @@ function returnFromSettings() {
     }
 }
 
-function renderSchedule() {
+function applyScheduleTransition(transition) {
+    scheduleContainer.classList.remove("slide-in-left", "slide-in-right");
+    // Принудительный reflow, чтобы анимация стабильно перезапускалась.
+    // eslint-disable-next-line no-unused-expressions
+    scheduleContainer.offsetWidth;
+    if (transition === "left") {
+        scheduleContainer.classList.add("slide-in-left");
+    } else if (transition === "right") {
+        scheduleContainer.classList.add("slide-in-right");
+    }
+}
+
+function renderSchedule(transition = "") {
     if (!currentGroup || !scheduleData[currentGroup]) {
         scheduleContainer.innerHTML = "";
         return;
@@ -107,6 +118,7 @@ function renderSchedule() {
 
     currentDayLabel.innerText = getWeekRange();
     scheduleContainer.innerHTML = "";
+    applyScheduleTransition(transition);
 
     const lessons = scheduleData[currentGroup][dayStr] || [];
     if (!lessons.length) {
@@ -128,20 +140,47 @@ function renderSchedule() {
 
         const detailsDiv = document.createElement("div");
         detailsDiv.classList.add("details");
-        detailsDiv.innerText = `${lesson.subject || ""} (${lesson.room || ""})`;
+        const titleRow = document.createElement("div");
+        titleRow.classList.add("lesson-title-row");
+
+        const subjectDiv = document.createElement("div");
+        subjectDiv.classList.add("lesson-subject");
+        subjectDiv.innerText = lesson.subject || "";
+        titleRow.appendChild(subjectDiv);
 
         if (settings.showSubgroup && lesson.subgroup) {
             const subDiv = document.createElement("span");
             subDiv.classList.add("subgroup");
-            subDiv.innerText = `Subgroup ${lesson.subgroup}`;
-            detailsDiv.appendChild(subDiv);
+            subDiv.innerText = `👤 ${lesson.subgroup}`;
+            titleRow.appendChild(subDiv);
         }
+
+        const roomDiv = document.createElement("div");
+        roomDiv.classList.add("lesson-room");
+        roomDiv.innerText = lesson.room ? `Кабинет: ${lesson.room}` : "";
+
+        detailsDiv.appendChild(titleRow);
+        detailsDiv.appendChild(roomDiv);
 
         row.appendChild(timeDiv);
         row.appendChild(colorDiv);
         row.appendChild(detailsDiv);
         scheduleContainer.appendChild(row);
     });
+}
+
+function changeDay(delta, transition = "") {
+    const nextIndex = selectedDayIndex + delta;
+    if (nextIndex < 0) {
+        currentWeekStart.setDate(currentWeekStart.getDate() - 7);
+        selectedDayIndex = 6;
+    } else if (nextIndex > 6) {
+        currentWeekStart.setDate(currentWeekStart.getDate() + 7);
+        selectedDayIndex = 0;
+    } else {
+        selectedDayIndex = nextIndex;
+    }
+    renderSchedule(transition);
 }
 
 function renderWeekDays() {
@@ -153,7 +192,7 @@ function renderWeekDays() {
     prevButton.innerText = "←";
     prevButton.onclick = () => {
         currentWeekStart.setDate(currentWeekStart.getDate() - 7);
-        renderSchedule();
+        renderSchedule("right");
     };
     weekDaysContainer.appendChild(prevButton);
 
@@ -168,8 +207,9 @@ function renderWeekDays() {
         }
         day.innerText = `${dayLabels[i]}\n${date.getDate()}`;
         day.onclick = () => {
+            const previousIndex = selectedDayIndex;
             selectedDayIndex = i;
-            renderSchedule();
+            renderSchedule(i > previousIndex ? "left" : "right");
         };
         weekDaysContainer.appendChild(day);
     }
@@ -180,7 +220,7 @@ function renderWeekDays() {
     nextButton.innerText = "→";
     nextButton.onclick = () => {
         currentWeekStart.setDate(currentWeekStart.getDate() + 7);
-        renderSchedule();
+        renderSchedule("left");
     };
     weekDaysContainer.appendChild(nextButton);
 }
@@ -246,13 +286,11 @@ document.getElementById("close-settings").onclick = () => {
     returnFromSettings();
 };
 
-calendarButton.onclick = () => {
+calendarInput.addEventListener("pointerdown", () => {
     const selectedDate = new Date(currentWeekStart);
     selectedDate.setDate(currentWeekStart.getDate() + selectedDayIndex);
     calendarInput.value = formatDate(selectedDate);
-    calendarInput.showPicker?.();
-    calendarInput.click();
-};
+});
 
 calendarInput.onchange = (event) => {
     const value = event.target.value;
@@ -264,5 +302,46 @@ calendarInput.onchange = (event) => {
     let day = selectedDate.getDay();
     day = day === 0 ? 6 : day - 1;
     selectedDayIndex = day;
-    renderSchedule();
+    renderSchedule("left");
 };
+
+function setupSwipeNavigation() {
+    let startX = 0;
+    let startY = 0;
+    let swiping = false;
+    const threshold = 50;
+    const verticalThreshold = 40;
+    const swipeTarget = mainScreen;
+
+    swipeTarget.addEventListener("touchstart", (event) => {
+        if (settingsScreen.classList.contains("hidden") === false || mainScreen.classList.contains("hidden")) {
+            return;
+        }
+        const touch = event.changedTouches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
+        swiping = true;
+    }, { passive: true });
+
+    swipeTarget.addEventListener("touchend", (event) => {
+        if (!swiping) {
+            return;
+        }
+        const touch = event.changedTouches[0];
+        const deltaX = touch.clientX - startX;
+        const deltaY = touch.clientY - startY;
+        swiping = false;
+
+        if (Math.abs(deltaX) < threshold || Math.abs(deltaY) > verticalThreshold || Math.abs(deltaX) <= Math.abs(deltaY)) {
+            return;
+        }
+
+        if (deltaX < 0) {
+            changeDay(1, "left");
+        } else {
+            changeDay(-1, "right");
+        }
+    }, { passive: true });
+}
+
+setupSwipeNavigation();

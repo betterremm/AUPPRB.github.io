@@ -20,7 +20,10 @@
     <div class="header">
         <button id="exit">⏏</button>
         <div id="current-day"></div>
-        <button id="calendar">📅</button>
+        <label id="calendar" class="calendar-picker" aria-label="Выбор даты">
+            <span>📅</span>
+            <input type="date" id="calendar-input" class="calendar-input-overlay">
+        </label>
     </div>
     <div id="week-days"></div>
 
@@ -37,8 +40,6 @@
     <button id="save-settings">Сохранить</button>
     <button id="close-settings">Закрыть</button>
 </div>
-
-<input type="date" id="calendar-input" class="hidden-date-input">
 
 <script src="script.js"></script>
 </body>
