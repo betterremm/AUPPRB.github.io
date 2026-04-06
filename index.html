@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Schedule</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 id="day"></h1>
-<div id="schedule"></div>
+
+<!-- Выбор группы -->
+<div id="group-selection" class="screen">
+    <h2>Выберите группу</h2>
+    <div id="groups"></div>
+</div>
+
+<!-- Главное расписание -->
+<div id="main-screen" class="screen hidden">
+    <div class="header">
+        <button id="exit">⏏</button>
+        <div class="week-nav">
+            <button id="prev-week">←</button>
+            <div id="current-day"></div>
+            <button id="next-week">→</button>
+        </div>
+        <button id="calendar">📅</button>
+    </div>
+
+    <div id="schedule-container"></div>
+    <button id="settings-btn">⚙️ Настройки</button>
+</div>
+
+<!-- Настройки -->
+<div id="settings-screen" class="screen hidden">
+    <h2>Настройки</h2>
+    <label>Лекция цвет: <input type="color" id="color-lecture"></label><br>
+    <label>Практика цвет: <input type="color" id="color-practice"></label><br>
+    <label>Лабораторная цвет: <input type="color" id="color-lab"></label><br>
+    <label>Показывать подгруппу: <input type="checkbox" id="show-subgroup"></label><br>
+    <button id="save-settings">Сохранить</button>
+    <button id="close-settings">Закрыть</button>
+</div>
 
 <script src="script.js"></script>
 </body>
