@@ -10,15 +10,15 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 10px;
     margin-bottom: 10px;
 }
 
-.week-nav {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+#current-day {
+    flex-grow: 1;
+    text-align: center;
 }
 
 #schedule-container {
@@ -36,8 +36,45 @@ body {
 }
 
 .time { width: 60px; font-weight: bold; }
-.color-bar { width: 10px; height: 100%; margin-right: 10px; border-radius: 4px; }
+.color-bar {
+    width: 10px;
+    min-height: 42px;
+    margin-right: 10px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
 .details { flex-grow: 1; }
 .subgroup { margin-left: 5px; font-size: 0.8em; }
 button { background: #2a2a2a; color: white; border: none; padding: 5px 10px; border-radius: 5px; }
 button:hover { background: #3a3a3a; cursor: pointer; }
+
+#week-days {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.day.active {
+    background: #3a3a3a;
+}
+
+.week-shift {
+    flex: 0 0 auto;
+    min-width: 32px;
+}
+
+.hidden-date-input {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    pointer-events: none;
+}
