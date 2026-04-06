@@ -1,0 +1,7 @@
+{
+  "monday": [
+    { "time": "09:00", "subject": "Math", "room": "101" },
+    { "time": "10:30", "subject": "Physics", "room": "202" }
+  ],
+  "tuesday": []
+}
