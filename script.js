@@ -13,6 +13,10 @@ let settingsReturnScreen = "group-selection";
 
 const dayLabels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
+const EARLY_TESTERS_NOTICE = `Спасибо, что тестируете это приложение. Если возникают какие то вопросы по функционалу (баги, 
+вылеты, и тому подобное),а также если присутствуют проблемы с правильностью расписания или дизайнерскими решениями)) то пишите в тг @mishas23. Остальные группы будут добавлены в 
+ближайшее время. ГУП сделаю только если попросят.`;
+
 const groupSelectionScreen = document.getElementById("group-selection");
 const mainScreen = document.getElementById("main-screen");
 const settingsScreen = document.getElementById("settings-screen");
@@ -20,15 +24,41 @@ const groupsContainer = document.getElementById("groups");
 const weekDaysContainer = document.getElementById("week-days");
 const scheduleContainer = document.getElementById("schedule-container");
 const currentDayLabel = document.getElementById("current-day");
+const weekMonthCaption = document.getElementById("week-month-caption");
+const lessonModal = document.getElementById("lesson-modal");
+const lessonModalTitle = document.getElementById("lesson-modal-title");
+const lessonModalBody = document.getElementById("lesson-modal-body");
 const calendarInput = document.getElementById("calendar-input");
 const settingsButton = document.getElementById("settings-btn");
 const exitButton = document.getElementById("exit");
+
+const MONTH_NAMES_RU = [
+    "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+    "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"
+];
 
 // Загрузка настроек из localStorage
 const storedSettings = localStorage.getItem("settings");
 if (storedSettings) {
     settings = { ...settings, ...JSON.parse(storedSettings) };
 }
+
+function applyEarlyTestersNotice() {
+    const el = document.getElementById("early-testers-panel");
+    if (!el) {
+        return;
+    }
+    const text = EARLY_TESTERS_NOTICE.trim();
+    if (!text) {
+        el.classList.add("hidden");
+        el.textContent = "";
+        return;
+    }
+    el.classList.remove("hidden");
+    el.textContent = text;
+}
+
+applyEarlyTestersNotice();
 
 fetch("schedule.json")
     .then((res) => res.json())
@@ -44,15 +74,10 @@ fetch("schedule.json")
 
 function initGroups() {
     groupsContainer.innerHTML = "";
-    const facultyNames = ["Факультет 1", "Факультет 2", "Факультет 3"];
-    const groups = Object.keys(scheduleData);
-    const facultyGroups = [[], [], []];
 
-    groups.forEach((groupName, index) => {
-        facultyGroups[index % 3].push(groupName);
-    });
+    Object.keys(scheduleData).forEach((facultyName) => {
+        const facultyData = scheduleData[facultyName];
 
-    facultyNames.forEach((facultyName, facultyIndex) => {
         const section = document.createElement("section");
         section.classList.add("faculty-section");
 
@@ -63,19 +88,31 @@ function initGroups() {
         const list = document.createElement("div");
         list.classList.add("faculty-groups");
 
-        facultyGroups[facultyIndex].forEach((groupName) => {
+        // Берём только группы (игнорируем lecture_room, lab_subjects и т.п.)
+        const groups = Object.keys(facultyData).filter((key) => {
+            const value = facultyData[key];
+            return typeof value === "object" && value !== null && !Array.isArray(value) && key.match(/^\d/);
+        });
+
+        groups.forEach((groupName) => {
             const btn = document.createElement("button");
             btn.classList.add("group-btn");
             btn.innerText = groupName;
+
             btn.onclick = () => {
                 currentGroup = groupName;
                 localStorage.setItem("group", groupName);
+
+                // ВАЖНО: теперь scheduleData должен указывать на группу
+                scheduleData = facultyData;
+
                 showMainScreen();
             };
+
             list.appendChild(btn);
         });
 
-        if (!facultyGroups[facultyIndex].length) {
+        if (!groups.length) {
             const empty = document.createElement("div");
             empty.style.opacity = "0.65";
             empty.style.fontSize = "0.9rem";
@@ -141,23 +178,34 @@ function applyScheduleTransition(transition) {
 
 function renderSchedule(transition = "") {
     if (!currentGroup || !scheduleData[currentGroup]) {
+        if (weekMonthCaption) {
+            weekMonthCaption.textContent = "";
+        }
+        if (currentDayLabel) {
+            currentDayLabel.textContent = "";
+        }
         scheduleContainer.innerHTML = "";
         return;
     }
 
     renderWeekDays();
+    if (weekMonthCaption) {
+        weekMonthCaption.textContent = getWeekMonthCaption();
+    }
 
     const date = new Date(currentWeekStart);
     date.setDate(currentWeekStart.getDate() + selectedDayIndex);
     const dayStr = formatDate(date);
 
-    currentDayLabel.innerText = getWeekRange();
+    if (currentDayLabel) {
+        currentDayLabel.textContent = getWeekYearCaption();
+    }
     scheduleContainer.innerHTML = "";
     applyScheduleTransition(transition);
 
     const lessons = scheduleData[currentGroup][dayStr] || [];
     if (!lessons.length) {
-        scheduleContainer.innerHTML = "<div class=\"lesson\">Нет занятий</div>";
+        scheduleContainer.innerHTML = "<div class=\"lesson lesson--empty\">Нет занятий</div>";
         return;
     }
 
@@ -171,7 +219,18 @@ function renderSchedule(transition = "") {
 
         const timeDiv = document.createElement("div");
         timeDiv.classList.add("time");
-        timeDiv.innerText = lesson.time || "";
+        const startStr = String(lesson.time || "").trim();
+        const timeStart = document.createElement("span");
+        timeStart.classList.add("time-start");
+        timeStart.textContent = startStr || "—";
+        timeDiv.appendChild(timeStart);
+        const endStr = getPairedLessonEndTime(startStr);
+        if (endStr) {
+            const timeEnd = document.createElement("span");
+            timeEnd.classList.add("time-end");
+            timeEnd.textContent = endStr;
+            timeDiv.appendChild(timeEnd);
+        }
 
         const colorDiv = document.createElement("div");
         colorDiv.classList.add("color-bar");
@@ -204,6 +263,7 @@ function renderSchedule(transition = "") {
         row.appendChild(timeDiv);
         row.appendChild(colorDiv);
         row.appendChild(detailsDiv);
+        row.addEventListener("click", () => openLessonModal(lesson));
         scheduleContainer.appendChild(row);
     });
 }
@@ -260,11 +320,185 @@ function formatDate(date) {
     return `${year}-${month}-${day}`;
 }
 
-function getWeekRange() {
+function getWeekYearCaption() {
     const start = new Date(currentWeekStart);
     const end = new Date(currentWeekStart);
     end.setDate(end.getDate() + 6);
-    return `${formatDate(start)} - ${formatDate(end)}`;
+    const y0 = start.getFullYear();
+    const y1 = end.getFullYear();
+    if (y0 === y1) {
+        return String(y0);
+    }
+    return `${y0} - ${y1}`;
+}
+
+function getWeekMonthCaption() {
+    const start = new Date(currentWeekStart);
+    const end = new Date(currentWeekStart);
+    end.setDate(end.getDate() + 6);
+    const m0 = start.getMonth();
+    const m1 = end.getMonth();
+    const y0 = start.getFullYear();
+    const y1 = end.getFullYear();
+    if (m0 === m1 && y0 === y1) {
+        return MONTH_NAMES_RU[m0];
+    }
+    if (y0 !== y1) {
+        return `${MONTH_NAMES_RU[m0]} ${y0} - ${MONTH_NAMES_RU[m1]} ${y1}`;
+    }
+    return `${MONTH_NAMES_RU[m0]} - ${MONTH_NAMES_RU[m1]}`;
+}
+
+function findSubjectMeta(lesson) {
+    const block = scheduleData[currentGroup];
+    const list = block && Array.isArray(block.subjects) ? block.subjects : [];
+    const key = (lesson.subject || "").trim();
+    return list.find((s) => (s.abbreviation || "").trim() === key) || null;
+}
+
+function getTeacherForLessonType(lesson, meta) {
+    if (!meta) {
+        return "";
+    }
+    const t = normalizeLessonType(lesson.type);
+    const map = {
+        lecture: meta.lecture_teacher,
+        practice: meta.practice_teacher,
+        lab: meta.lab_teacher,
+        credit: meta.credit_teacher
+    };
+    const raw = map[t];
+    return raw && String(raw).trim() ? String(raw).trim() : "";
+}
+
+function formatExamTypeDisplay(examType) {
+    if (examType === null || examType === undefined) {
+        return "";
+    }
+    const s = String(examType).trim();
+    if (!s) {
+        return "";
+    }
+    const low = s.toLowerCase();
+    if (low === "экзамен") {
+        return "Экзамен";
+    }
+    if (low === "зачет" || low === "зачёт") {
+        return "Зачёт";
+    }
+    if (low.includes("диф")) {
+        return "Диф. зачёт";
+    }
+    return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function getLessonTypeLabelRu(type) {
+    const n = normalizeLessonType(type);
+    const labels = {
+        lecture: "Лекция",
+        practice: "Практика",
+        lab: "Лабораторная работа",
+        credit: "Зачётная работа"
+    };
+    return labels[n] || (type ? String(type) : "Занятие");
+}
+
+const LESSON_SLOT_MINUTES = 40;
+const LESSON_BREAK_MINUTES = 5;
+
+function parseTimeToMinutes(timeStr) {
+    const parts = String(timeStr || "").trim().split(":");
+    if (parts.length < 2) {
+        return null;
+    }
+    const h = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10);
+    if (Number.isNaN(h) || Number.isNaN(m)) {
+        return null;
+    }
+    return h * 60 + m;
+}
+
+function minutesToHHmm(totalMinutes) {
+    const normalized = ((totalMinutes % (24 * 60)) + (24 * 60)) % (24 * 60);
+    const h = Math.floor(normalized / 60);
+    const m = normalized % 60;
+    return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+}
+
+function getPairedLessonEndTime(startTimeStr) {
+    const start = parseTimeToMinutes(startTimeStr);
+    if (start === null) {
+        return "";
+    }
+    const span = LESSON_SLOT_MINUTES + LESSON_BREAK_MINUTES + LESSON_SLOT_MINUTES;
+    return minutesToHHmm(start + span);
+}
+
+function formatPairedLessonTime(startTimeStr) {
+    const start = parseTimeToMinutes(startTimeStr);
+    if (start === null) {
+        return String(startTimeStr || "").trim();
+    }
+    const firstEnd = start + LESSON_SLOT_MINUTES;
+    const secondStart = firstEnd + LESSON_BREAK_MINUTES;
+    const secondEnd = secondStart + LESSON_SLOT_MINUTES;
+    const line1 = `${minutesToHHmm(start)}-${minutesToHHmm(firstEnd)}`;
+    const line2 = `${minutesToHHmm(secondStart)}-${minutesToHHmm(secondEnd)}`;
+    return `${line1}\n${line2}`;
+}
+
+function appendModalRow(container, label, value, options = {}) {
+    const rowEl = document.createElement("div");
+    rowEl.className = "lesson-modal-row";
+    const labelEl = document.createElement("div");
+    labelEl.className = "lesson-modal-label";
+    labelEl.textContent = label;
+    const valueEl = document.createElement("div");
+    valueEl.className = "lesson-modal-value";
+    if (options.multiline) {
+        valueEl.classList.add("lesson-modal-value--multiline");
+    }
+    valueEl.textContent = value;
+    rowEl.appendChild(labelEl);
+    rowEl.appendChild(valueEl);
+    container.appendChild(rowEl);
+}
+
+function openLessonModal(lesson) {
+    const meta = findSubjectMeta(lesson);
+    const title = (meta && meta.subject) ? meta.subject : ((lesson.subject || "").trim() || "Занятие");
+    lessonModalTitle.textContent = title;
+    lessonModalBody.innerHTML = "";
+
+    appendModalRow(lessonModalBody, "Форма занятия", getLessonTypeLabelRu(lesson.type));
+    const teacher = getTeacherForLessonType(lesson, meta);
+    if (teacher) {
+        appendModalRow(lessonModalBody, "Преподаватель", teacher);
+    }
+    if (lesson.room && String(lesson.room).trim()) {
+        appendModalRow(lessonModalBody, "Аудитория", String(lesson.room).trim());
+    }
+    if (lesson.time && String(lesson.time).trim()) {
+        const rawTime = String(lesson.time).trim();
+        const timeParsed = parseTimeToMinutes(rawTime) !== null;
+        appendModalRow(
+            lessonModalBody,
+            "Время",
+            formatPairedLessonTime(rawTime),
+            { multiline: timeParsed }
+        );
+    }
+    const examText = formatExamTypeDisplay(meta && meta.exam_type);
+    if (examText) {
+        appendModalRow(lessonModalBody, "Итоговый контроль", examText);
+    }
+
+    lessonModal.classList.remove("hidden");
+}
+
+function closeLessonModal() {
+    lessonModal.classList.add("hidden");
 }
 
 function normalizeLessonType(type) {
@@ -279,13 +513,19 @@ function normalizeLessonType(type) {
         практика: "practice",
         lab: "lab",
         laboratory: "lab",
-        лабораторная: "lab"
+        лабораторная: "lab",
+        credit: "credit",
+        зачет: "credit",
+        зачёт: "credit"
     };
     return map[normalized] || "lecture";
 }
 
 function getLessonTypeColor(type) {
     const normalized = normalizeLessonType(type);
+    if (normalized === "credit") {
+        return settings.practice || "#888";
+    }
     return settings[normalized] || "#888";
 }
 
@@ -481,6 +721,18 @@ function setupWeekDaysSwipeNavigation() {
         activeTouchId = null;
     }, { passive: true });
 }
+
+if (lessonModal) {
+    lessonModal.querySelectorAll("[data-lesson-modal-close]").forEach((el) => {
+        el.addEventListener("click", closeLessonModal);
+    });
+}
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && lessonModal && !lessonModal.classList.contains("hidden")) {
+        closeLessonModal();
+    }
+});
 
 setupSwipeNavigation();
 setupWeekDaysSwipeNavigation();

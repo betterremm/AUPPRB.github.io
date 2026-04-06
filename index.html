@@ -13,10 +13,12 @@
     <button id="settings-btn" class="settings-fab" aria-label="Открыть настройки">⚙️</button>
     <h2 class="group-title">Выберите группу</h2>
     <div id="groups"></div>
+    <div id="early-testers-panel" class="early-testers-panel" role="note"></div>
 </div>
 
 <!-- Главное расписание -->
 <div id="main-screen" class="screen hidden">
+    <div id="week-month-caption" class="week-month-caption" aria-live="polite"></div>
     <div class="header">
         <button id="exit">⏏</button>
         <div id="current-day"></div>
@@ -28,6 +30,15 @@
     <div id="week-days"></div>
 
     <div id="schedule-container"></div>
+</div>
+
+<div id="lesson-modal" class="lesson-modal hidden" role="dialog" aria-modal="true" aria-labelledby="lesson-modal-title">
+    <div class="lesson-modal-backdrop" data-lesson-modal-close></div>
+    <div class="lesson-modal-card">
+        <button type="button" class="lesson-modal-close" data-lesson-modal-close aria-label="Закрыть">×</button>
+        <h2 id="lesson-modal-title" class="lesson-modal-heading"></h2>
+        <div id="lesson-modal-body" class="lesson-modal-body"></div>
+    </div>
 </div>
 
 <!-- Настройки -->
