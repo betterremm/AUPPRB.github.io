@@ -148,6 +148,19 @@ body {
     -webkit-backdrop-filter: blur(4px);
 }
 
+.lesson-modal:not(.hidden) .lesson-modal-backdrop {
+    animation: modalBackdropIn 220ms ease-out;
+}
+
+@keyframes modalBackdropIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .lesson-modal-card {
     position: relative;
     width: min(480px, 100%);
@@ -155,10 +168,23 @@ body {
     overflow: auto;
     border-radius: 16px 16px 12px 12px;
     padding: 18px 16px 16px;
+    padding-top: 22px;
     background: #1e1e1e;
     border: 1px solid rgba(255, 255, 255, 0.16);
     box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.45);
     z-index: 1;
+    will-change: transform, opacity;
+}
+
+.lesson-modal-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    border-radius: 16px 16px 0 0;
+    pointer-events: none;
+    background: #888;
 }
 
 .lesson-modal-close {

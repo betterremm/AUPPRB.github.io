@@ -64,16 +64,78 @@ function applyEarlyTestersNotice() {
 
 applyEarlyTestersNotice();
 
+const SCHEDULE_SELECTION_KEY = "scheduleSelection";
+
+function findGroupInScheduleData(rootData, groupName) {
+    const keys = Object.keys(rootData || {});
+    for (let i = 0; i < keys.length; i += 1) {
+        const facultyName = keys[i];
+        const facultyData = rootData[facultyName];
+        if (!facultyData || typeof facultyData !== "object" || Array.isArray(facultyData)) {
+            continue;
+        }
+        const block = facultyData[groupName];
+        if (
+            block
+            && typeof block === "object"
+            && !Array.isArray(block)
+            && Array.isArray(block.subjects)
+        ) {
+            return { facultyName, facultyData };
+        }
+    }
+    return null;
+}
+
+function saveScheduleSelection(facultyName, groupName) {
+    localStorage.setItem(
+        SCHEDULE_SELECTION_KEY,
+        JSON.stringify({ faculty: facultyName, group: groupName })
+    );
+}
+
+function tryRestoreSavedSchedule(rootData) {
+    const raw = localStorage.getItem(SCHEDULE_SELECTION_KEY);
+    if (raw) {
+        try {
+            const parsed = JSON.parse(raw);
+            const faculty = parsed && parsed.faculty;
+            const group = parsed && parsed.group;
+            if (
+                faculty
+                && group
+                && rootData[faculty]
+                && rootData[faculty][group]
+                && Array.isArray(rootData[faculty][group].subjects)
+            ) {
+                currentGroup = group;
+                scheduleData = rootData[faculty];
+                showMainScreen();
+                return;
+            }
+        } catch (e) {
+            /* ignore */
+        }
+    }
+    const legacyGroup = localStorage.getItem("group");
+    if (legacyGroup) {
+        const found = findGroupInScheduleData(rootData, legacyGroup);
+        if (found) {
+            currentGroup = legacyGroup;
+            scheduleData = found.facultyData;
+            saveScheduleSelection(found.facultyName, legacyGroup);
+            localStorage.removeItem("group");
+            showMainScreen();
+        }
+    }
+}
+
 fetch("schedule.json")
     .then((res) => res.json())
     .then((data) => {
         scheduleData = data;
         initGroups();
-        const savedGroup = localStorage.getItem("group");
-        if (savedGroup && scheduleData[savedGroup]) {
-            currentGroup = savedGroup;
-            showMainScreen();
-        }
+        tryRestoreSavedSchedule(data);
     });
 
 function initGroups() {
@@ -105,7 +167,7 @@ function initGroups() {
 
             btn.onclick = () => {
                 currentGroup = groupName;
-                localStorage.setItem("group", groupName);
+                saveScheduleSelection(facultyName, groupName);
 
                 // ВАЖНО: теперь scheduleData должен указывать на группу
                 scheduleData = facultyData;
@@ -131,6 +193,7 @@ function initGroups() {
 }
 
 function showMainScreen() {
+    focusTodayInScheduleView();
     groupSelectionScreen.classList.add("hidden");
     settingsScreen.classList.add("hidden");
     mainScreen.classList.remove("hidden");
@@ -139,7 +202,6 @@ function showMainScreen() {
 
 function showGroupSelectionScreen() {
     currentGroup = null;
-    localStorage.removeItem("group");
     mainScreen.classList.add("hidden");
     settingsScreen.classList.add("hidden");
     groupSelectionScreen.classList.remove("hidden");
@@ -251,20 +313,11 @@ function renderSchedule(transition = "") {
 
         const meta = findSubjectMeta(lesson);
         const { tail } = parseLessonTimeField(lesson.time);
-        let subjText = (meta && meta.subject) ? meta.subject : "";
-        if (!subjText) {
-            const rawSubj = String(lesson.subject || "").trim();
-            if (rawSubj && !/^unknown$/i.test(rawSubj)) {
-                subjText = rawSubj;
-            }
-        }
-        if (!subjText) {
-            subjText = extractAbbrevFromExamTail(tail) || "—";
-        }
+        const listAbbrev = getLessonListAbbrev(lesson, meta);
 
         const subjectDiv = document.createElement("div");
         subjectDiv.classList.add("lesson-subject");
-        subjectDiv.innerText = subjText;
+        subjectDiv.innerText = listAbbrev;
         titleRow.appendChild(subjectDiv);
 
         if (settings.showSubgroup && lesson.subgroup) {
@@ -345,6 +398,14 @@ function getMonday(date) {
     d.setDate(d.getDate() + diff);
     d.setHours(0, 0, 0, 0);
     return d;
+}
+
+function focusTodayInScheduleView() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    currentWeekStart = getMonday(today);
+    const dow = today.getDay();
+    selectedDayIndex = dow === 0 ? 6 : dow - 1;
 }
 
 function formatDate(date) {
@@ -453,6 +514,50 @@ function findSubjectMeta(lesson) {
     }
     const keyLow = key.toLowerCase();
     return list.find((s) => (s.abbreviation || "").trim().toLowerCase() === keyLow) || null;
+}
+
+function getLessonListAbbrev(lesson, meta) {
+    if (meta && meta.abbreviation && String(meta.abbreviation).trim()) {
+        return String(meta.abbreviation).trim();
+    }
+    const raw = String(lesson.subject || "").trim();
+    if (raw && !/^unknown$/i.test(raw)) {
+        return raw;
+    }
+    const { tail } = parseLessonTimeField(lesson.time);
+    return extractAbbrevFromExamTail(tail) || "—";
+}
+
+function getLessonModalFullTitle(lesson, meta) {
+    if (meta && meta.subject && String(meta.subject).trim()) {
+        return String(meta.subject).trim();
+    }
+    const raw = String(lesson.subject || "").trim();
+    if (raw && !/^unknown$/i.test(raw)) {
+        const block = scheduleData[currentGroup];
+        const list = block && Array.isArray(block.subjects) ? block.subjects : [];
+        const found = list.find(
+            (s) => (s.abbreviation || "").trim().toLowerCase() === raw.toLowerCase()
+        );
+        if (found && found.subject) {
+            return String(found.subject).trim();
+        }
+        return raw;
+    }
+    const { tail } = parseLessonTimeField(lesson.time);
+    const ab = extractAbbrevFromExamTail(tail);
+    if (ab) {
+        const block = scheduleData[currentGroup];
+        const list = block && Array.isArray(block.subjects) ? block.subjects : [];
+        const found = list.find(
+            (s) => (s.abbreviation || "").trim().toLowerCase() === ab.toLowerCase()
+        );
+        if (found && found.subject) {
+            return String(found.subject).trim();
+        }
+        return ab;
+    }
+    return "Занятие";
 }
 
 function getTeacherForLessonType(lesson, meta) {
@@ -571,18 +676,13 @@ function appendModalRow(container, label, value, options = {}) {
 function openLessonModal(lesson) {
     const meta = findSubjectMeta(lesson);
     const { tail } = parseLessonTimeField(lesson.time);
-    let title = (meta && meta.subject) ? meta.subject : "";
-    if (!title) {
-        const rawSubj = String(lesson.subject || "").trim();
-        if (rawSubj && !/^unknown$/i.test(rawSubj)) {
-            title = rawSubj;
-        }
-    }
-    if (!title) {
-        title = extractAbbrevFromExamTail(tail) || "Занятие";
-    }
-    lessonModalTitle.textContent = title;
+    lessonModalTitle.textContent = getLessonModalFullTitle(lesson, meta);
     lessonModalBody.innerHTML = "";
+
+    const accentEl = document.getElementById("lesson-modal-accent");
+    if (accentEl) {
+        accentEl.style.backgroundColor = getLessonTypeColor(lesson.type);
+    }
 
     appendModalRow(lessonModalBody, "Форма занятия", getLessonTypeLabelRu(lesson.type));
     const teacher = getTeacherForLessonType(lesson, meta);
@@ -623,9 +723,20 @@ function openLessonModal(lesson) {
     }
 
     lessonModal.classList.remove("hidden");
+    const modalCard = lessonModal.querySelector(".lesson-modal-card");
+    if (modalCard) {
+        modalCard.classList.remove("slide-in-left", "slide-in-right");
+        // eslint-disable-next-line no-unused-expressions
+        modalCard.offsetWidth;
+        modalCard.classList.add("slide-in-left");
+    }
 }
 
 function closeLessonModal() {
+    const modalCard = lessonModal.querySelector(".lesson-modal-card");
+    if (modalCard) {
+        modalCard.classList.remove("slide-in-left", "slide-in-right");
+    }
     lessonModal.classList.add("hidden");
 }
 
