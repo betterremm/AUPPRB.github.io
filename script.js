@@ -4,7 +4,8 @@ let settings = {
     lecture: "#00ff00",
     practice: "#ffff00",
     lab: "#ff0000",
-    showSubgroup: true
+    showSubgroup: true,
+    subgroupNumber: ""
 };
 let currentWeekStart = getMonday(new Date());
 let selectedDayIndex = 0; // 0 = Пн, 6 = Вс
@@ -43,15 +44,48 @@ fetch("schedule.json")
 
 function initGroups() {
     groupsContainer.innerHTML = "";
-    Object.keys(scheduleData).forEach((groupName) => {
-        const btn = document.createElement("button");
-        btn.innerText = groupName;
-        btn.onclick = () => {
-            currentGroup = groupName;
-            localStorage.setItem("group", groupName);
-            showMainScreen();
-        };
-        groupsContainer.appendChild(btn);
+    const facultyNames = ["Факультет 1", "Факультет 2", "Факультет 3"];
+    const groups = Object.keys(scheduleData);
+    const facultyGroups = [[], [], []];
+
+    groups.forEach((groupName, index) => {
+        facultyGroups[index % 3].push(groupName);
+    });
+
+    facultyNames.forEach((facultyName, facultyIndex) => {
+        const section = document.createElement("section");
+        section.classList.add("faculty-section");
+
+        const title = document.createElement("div");
+        title.classList.add("faculty-title");
+        title.innerText = facultyName;
+
+        const list = document.createElement("div");
+        list.classList.add("faculty-groups");
+
+        facultyGroups[facultyIndex].forEach((groupName) => {
+            const btn = document.createElement("button");
+            btn.classList.add("group-btn");
+            btn.innerText = groupName;
+            btn.onclick = () => {
+                currentGroup = groupName;
+                localStorage.setItem("group", groupName);
+                showMainScreen();
+            };
+            list.appendChild(btn);
+        });
+
+        if (!facultyGroups[facultyIndex].length) {
+            const empty = document.createElement("div");
+            empty.style.opacity = "0.65";
+            empty.style.fontSize = "0.9rem";
+            empty.innerText = "Группы отсутствуют";
+            list.appendChild(empty);
+        }
+
+        section.appendChild(title);
+        section.appendChild(list);
+        groupsContainer.appendChild(section);
     });
 }
 
@@ -80,6 +114,7 @@ function showSettingsScreen(fromScreenId) {
     document.getElementById("color-practice").value = settings.practice;
     document.getElementById("color-lab").value = settings.lab;
     document.getElementById("show-subgroup").checked = settings.showSubgroup;
+    document.getElementById("subgroup-number").value = settings.subgroupNumber || "";
 }
 
 function returnFromSettings() {
@@ -129,6 +164,10 @@ function renderSchedule(transition = "") {
     lessons.forEach((lesson) => {
         const row = document.createElement("div");
         row.classList.add("lesson");
+        const fadedBySubgroup = shouldFadeLessonBySubgroup(lesson);
+        if (fadedBySubgroup) {
+            row.classList.add("lesson-faded");
+        }
 
         const timeDiv = document.createElement("div");
         timeDiv.classList.add("time");
@@ -186,16 +225,6 @@ function changeDay(delta, transition = "") {
 function renderWeekDays() {
     weekDaysContainer.innerHTML = "";
 
-    const prevButton = document.createElement("button");
-    prevButton.id = "prev-week";
-    prevButton.classList.add("week-shift");
-    prevButton.innerText = "←";
-    prevButton.onclick = () => {
-        currentWeekStart.setDate(currentWeekStart.getDate() - 7);
-        renderSchedule("right");
-    };
-    weekDaysContainer.appendChild(prevButton);
-
     for (let i = 0; i < 7; i += 1) {
         const date = new Date(currentWeekStart);
         date.setDate(currentWeekStart.getDate() + i);
@@ -213,16 +242,6 @@ function renderWeekDays() {
         };
         weekDaysContainer.appendChild(day);
     }
-
-    const nextButton = document.createElement("button");
-    nextButton.id = "next-week";
-    nextButton.classList.add("week-shift");
-    nextButton.innerText = "→";
-    nextButton.onclick = () => {
-        currentWeekStart.setDate(currentWeekStart.getDate() + 7);
-        renderSchedule("left");
-    };
-    weekDaysContainer.appendChild(nextButton);
 }
 
 function getMonday(date) {
@@ -270,6 +289,16 @@ function getLessonTypeColor(type) {
     return settings[normalized] || "#888";
 }
 
+function shouldFadeLessonBySubgroup(lesson) {
+    if (!settings.subgroupNumber) {
+        return false;
+    }
+    if (lesson.subgroup === null || lesson.subgroup === undefined || lesson.subgroup === "") {
+        return false;
+    }
+    return String(lesson.subgroup) !== String(settings.subgroupNumber);
+}
+
 settingsButton.onclick = () => showSettingsScreen("group-selection");
 exitButton.onclick = () => showGroupSelectionScreen();
 
@@ -278,6 +307,7 @@ document.getElementById("save-settings").onclick = () => {
     settings.practice = document.getElementById("color-practice").value;
     settings.lab = document.getElementById("color-lab").value;
     settings.showSubgroup = document.getElementById("show-subgroup").checked;
+    settings.subgroupNumber = document.getElementById("subgroup-number").value;
     localStorage.setItem("settings", JSON.stringify(settings));
     returnFromSettings();
 };
@@ -308,29 +338,22 @@ calendarInput.onchange = (event) => {
 function setupSwipeNavigation() {
     let startX = 0;
     let startY = 0;
+    let endX = 0;
+    let endY = 0;
     let swiping = false;
+    let activeTouchId = null;
     const threshold = 50;
-    const verticalThreshold = 40;
+    const verticalThreshold = 60;
     const swipeTarget = mainScreen;
 
-    swipeTarget.addEventListener("touchstart", (event) => {
-        if (settingsScreen.classList.contains("hidden") === false || mainScreen.classList.contains("hidden")) {
-            return;
-        }
-        const touch = event.changedTouches[0];
-        startX = touch.clientX;
-        startY = touch.clientY;
-        swiping = true;
-    }, { passive: true });
-
-    swipeTarget.addEventListener("touchend", (event) => {
+    function onSwipeEnd() {
         if (!swiping) {
             return;
         }
-        const touch = event.changedTouches[0];
-        const deltaX = touch.clientX - startX;
-        const deltaY = touch.clientY - startY;
+        const deltaX = endX - startX;
+        const deltaY = endY - startY;
         swiping = false;
+        activeTouchId = null;
 
         if (Math.abs(deltaX) < threshold || Math.abs(deltaY) > verticalThreshold || Math.abs(deltaX) <= Math.abs(deltaY)) {
             return;
@@ -341,7 +364,123 @@ function setupSwipeNavigation() {
         } else {
             changeDay(-1, "right");
         }
+    }
+
+    swipeTarget.addEventListener("touchstart", (event) => {
+        if (
+            settingsScreen.classList.contains("hidden") === false
+            || mainScreen.classList.contains("hidden")
+            || event.target.closest("#week-days")
+            || event.target.closest(".calendar-picker")
+        ) {
+            return;
+        }
+        const touch = event.changedTouches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
+        endX = startX;
+        endY = startY;
+        activeTouchId = touch.identifier;
+        swiping = true;
+    }, { passive: true });
+
+    swipeTarget.addEventListener("touchmove", (event) => {
+        if (!swiping) {
+            return;
+        }
+        const touch = Array.from(event.changedTouches).find((item) => item.identifier === activeTouchId);
+        if (!touch) {
+            return;
+        }
+        endX = touch.clientX;
+        endY = touch.clientY;
+    }, { passive: true });
+
+    swipeTarget.addEventListener("touchend", (event) => {
+        if (!swiping) {
+            return;
+        }
+        const touch = Array.from(event.changedTouches).find((item) => item.identifier === activeTouchId);
+        if (touch) {
+            endX = touch.clientX;
+            endY = touch.clientY;
+        }
+        onSwipeEnd();
+    }, { passive: true });
+
+    swipeTarget.addEventListener("touchcancel", () => {
+        swiping = false;
+        activeTouchId = null;
+    }, { passive: true });
+}
+
+function setupWeekDaysSwipeNavigation() {
+    let startX = 0;
+    let startY = 0;
+    let endX = 0;
+    let endY = 0;
+    let swiping = false;
+    let activeTouchId = null;
+    const threshold = 50;
+    const verticalThreshold = 60;
+
+    weekDaysContainer.addEventListener("touchstart", (event) => {
+        if (mainScreen.classList.contains("hidden")) {
+            return;
+        }
+        const touch = event.changedTouches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
+        endX = startX;
+        endY = startY;
+        activeTouchId = touch.identifier;
+        swiping = true;
+    }, { passive: true });
+
+    weekDaysContainer.addEventListener("touchmove", (event) => {
+        if (!swiping) {
+            return;
+        }
+        const touch = Array.from(event.changedTouches).find((item) => item.identifier === activeTouchId);
+        if (!touch) {
+            return;
+        }
+        endX = touch.clientX;
+        endY = touch.clientY;
+    }, { passive: true });
+
+    weekDaysContainer.addEventListener("touchend", (event) => {
+        if (!swiping) {
+            return;
+        }
+        const touch = Array.from(event.changedTouches).find((item) => item.identifier === activeTouchId);
+        if (touch) {
+            endX = touch.clientX;
+            endY = touch.clientY;
+        }
+        const deltaX = endX - startX;
+        const deltaY = endY - startY;
+        swiping = false;
+        activeTouchId = null;
+
+        if (Math.abs(deltaX) < threshold || Math.abs(deltaY) > verticalThreshold || Math.abs(deltaX) <= Math.abs(deltaY)) {
+            return;
+        }
+
+        if (deltaX < 0) {
+            currentWeekStart.setDate(currentWeekStart.getDate() + 7);
+            renderSchedule("left");
+        } else {
+            currentWeekStart.setDate(currentWeekStart.getDate() - 7);
+            renderSchedule("right");
+        }
+    }, { passive: true });
+
+    weekDaysContainer.addEventListener("touchcancel", () => {
+        swiping = false;
+        activeTouchId = null;
     }, { passive: true });
 }
 
 setupSwipeNavigation();
+setupWeekDaysSwipeNavigation();

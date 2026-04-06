@@ -3,10 +3,230 @@ body {
     font-family: sans-serif;
     background: #121212;
     color: white;
+    overflow-x: hidden;
 }
 
 .screen { padding: 10px; }
 .hidden { display: none; }
+
+#group-selection {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 18px 12px 12px;
+}
+
+.group-title {
+    margin: 0 0 24px;
+    font-size: 1.35rem;
+}
+
+.settings-fab {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 1.15rem;
+    z-index: 30;
+}
+
+#groups {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faculty-section {
+    border-radius: 14px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.faculty-title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    opacity: 0.95;
+}
+
+.faculty-groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.group-btn {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+#main-screen {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#settings-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 28px;
+}
+
+#settings-screen.hidden {
+    display: none;
+}
+
+.settings-card {
+    width: min(560px, 100%);
+    border-radius: 16px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.settings-title {
+    margin: 0 0 14px;
+}
+
+.settings-section {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.settings-section-title {
+    font-size: 0.84rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    opacity: 0.75;
+    margin-bottom: 8px;
+}
+
+.settings-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 0.96rem;
+}
+
+.settings-row + .settings-row {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#subgroup-number {
+    min-width: 110px;
+}
+
+.settings-row select {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 6px 8px;
+}
+
+.color-picker {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.22);
+}
+
+.color-picker::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.color-picker::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+.color-picker::-moz-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 48px;
+    height: 28px;
+    display: inline-block;
+}
+
+.toggle-switch input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.toggle-slider {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    transition: background 0.2s ease;
+}
+
+.toggle-slider::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 3px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background: #3778ff;
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+    transform: translateX(20px);
+}
+
+.settings-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.btn-primary {
+    background: #3778ff;
+}
+
+.btn-primary:hover {
+    background: #2f6ef0;
+}
 
 .header {
     display: flex;
@@ -25,6 +245,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow-x: clip;
+    will-change: transform;
 }
 
 .lesson {
@@ -68,32 +290,67 @@ body {
     font-size: 0.8em;
     opacity: 0.9;
 }
+
+.lesson.lesson-faded {
+    background: #2f2f2f;
+    opacity: 0.75;
+    padding: 7px 10px;
+}
+
+.lesson.lesson-faded .time {
+    opacity: 0.65;
+    font-size: 0.85rem;
+}
+
+.lesson.lesson-faded .color-bar {
+    background: #666 !important;
+    min-height: 30px;
+}
+
+.lesson.lesson-faded .lesson-subject {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.lesson.lesson-faded .lesson-room {
+    font-size: 0.75rem;
+    opacity: 0.75;
+}
 button { background: #2a2a2a; color: white; border: none; padding: 5px 10px; border-radius: 5px; }
 button:hover { background: #3a3a3a; cursor: pointer; }
 
 #week-days {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     margin-bottom: 10px;
+    overflow: hidden;
+    padding: 4px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .day {
-    flex: 1;
+    flex: 1 1 0;
+    min-width: 0;
     text-align: center;
-    padding: 5px;
-    border-radius: 6px;
+    padding: 4px 2px;
+    border-radius: 10px;
     cursor: pointer;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: 0.78rem;
+    line-height: 1.2;
 }
 
 .day.active {
-    background: #3a3a3a;
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.32);
 }
 
-.week-shift {
-    flex: 0 0 auto;
-    min-width: 32px;
-}
 
 .calendar-picker {
     position: relative;
@@ -133,21 +390,21 @@ button:hover { background: #3a3a3a; cursor: pointer; }
 @keyframes slideInLeft {
     from {
         opacity: 0;
-        transform: translateX(24px);
+        transform: translate3d(24px, 0, 0);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
 @keyframes slideInRight {
     from {
         opacity: 0;
-        transform: translateX(-24px);
+        transform: translate3d(-24px, 0, 0);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
 }

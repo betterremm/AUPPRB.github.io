@@ -10,9 +10,9 @@
 
 <!-- Выбор группы -->
 <div id="group-selection" class="screen">
-    <h2>Выберите группу</h2>
+    <button id="settings-btn" class="settings-fab" aria-label="Открыть настройки">⚙️</button>
+    <h2 class="group-title">Выберите группу</h2>
     <div id="groups"></div>
-    <button id="settings-btn">⚙️ Настройки</button>
 </div>
 
 <!-- Главное расписание -->
@@ -32,13 +32,51 @@
 
 <!-- Настройки -->
 <div id="settings-screen" class="screen hidden">
-    <h2>Настройки</h2>
-    <label>Лекция цвет: <input type="color" id="color-lecture"></label><br>
-    <label>Практика цвет: <input type="color" id="color-practice"></label><br>
-    <label>Лабораторная цвет: <input type="color" id="color-lab"></label><br>
-    <label>Показывать подгруппу: <input type="checkbox" id="show-subgroup"></label><br>
-    <button id="save-settings">Сохранить</button>
-    <button id="close-settings">Закрыть</button>
+    <div class="settings-card">
+        <h2 class="settings-title">Настройки</h2>
+
+        <div class="settings-section">
+            <div class="settings-section-title">Цвета видов занятий</div>
+            <label class="settings-row">
+                <span>Лекция</span>
+                <input type="color" id="color-lecture" class="color-picker">
+            </label>
+            <label class="settings-row">
+                <span>Практика</span>
+                <input type="color" id="color-practice" class="color-picker">
+            </label>
+            <label class="settings-row">
+                <span>Лабораторная</span>
+                <input type="color" id="color-lab" class="color-picker">
+            </label>
+        </div>
+
+        <div class="settings-section">
+            <div class="settings-section-title">Подгруппы</div>
+            <label class="settings-row settings-toggle-row">
+                <span>Показывать номер подгруппы</span>
+                <span class="toggle-switch">
+                    <input type="checkbox" id="show-subgroup">
+                    <span class="toggle-slider"></span>
+                </span>
+            </label>
+            <label class="settings-row">
+                <span>Моя подгруппа</span>
+                <select id="subgroup-number">
+                    <option value="">Все</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="settings-actions">
+            <button id="close-settings" class="btn-secondary">Закрыть</button>
+            <button id="save-settings" class="btn-primary">Сохранить</button>
+        </div>
+    </div>
 </div>
 
 <script src="script.js"></script>
