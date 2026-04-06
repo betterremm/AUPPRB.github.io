@@ -482,6 +482,14 @@ body {
     line-height: 1.25;
 }
 
+.lesson-exam-kind {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 3px;
+    line-height: 1.25;
+}
+
 .lesson-room {
     margin-top: 2px;
     font-size: 0.82rem;
@@ -513,6 +521,11 @@ body {
 .lesson.lesson-faded .color-bar {
     background: #666 !important;
     min-height: 30px;
+}
+
+.lesson.lesson-faded .lesson-exam-kind {
+    font-size: 0.76rem;
+    color: rgba(255, 255, 255, 0.48);
 }
 
 .lesson.lesson-faded .lesson-subject {

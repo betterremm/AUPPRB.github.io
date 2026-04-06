@@ -4,6 +4,7 @@ let settings = {
     lecture: "#00ff00",
     practice: "#ffff00",
     lab: "#ff0000",
+    credit: "#8b5cf6",
     showSubgroup: true,
     subgroupNumber: ""
 };
@@ -41,6 +42,9 @@ const MONTH_NAMES_RU = [
 const storedSettings = localStorage.getItem("settings");
 if (storedSettings) {
     settings = { ...settings, ...JSON.parse(storedSettings) };
+}
+if (!settings.credit) {
+    settings.credit = "#8b5cf6";
 }
 
 function applyEarlyTestersNotice() {
@@ -150,6 +154,7 @@ function showSettingsScreen(fromScreenId) {
     document.getElementById("color-lecture").value = settings.lecture;
     document.getElementById("color-practice").value = settings.practice;
     document.getElementById("color-lab").value = settings.lab;
+    document.getElementById("color-credit").value = settings.credit || "#8b5cf6";
     document.getElementById("show-subgroup").checked = settings.showSubgroup;
     document.getElementById("subgroup-number").value = settings.subgroupNumber || "";
 }
@@ -219,17 +224,20 @@ function renderSchedule(transition = "") {
 
         const timeDiv = document.createElement("div");
         timeDiv.classList.add("time");
-        const startStr = String(lesson.time || "").trim();
+        const clockStr = extractLessonClock(lesson.time);
+        const creditLike = isCreditLikeLesson(lesson);
         const timeStart = document.createElement("span");
         timeStart.classList.add("time-start");
-        timeStart.textContent = startStr || "—";
+        timeStart.textContent = clockStr || "—";
         timeDiv.appendChild(timeStart);
-        const endStr = getPairedLessonEndTime(startStr);
-        if (endStr) {
-            const timeEnd = document.createElement("span");
-            timeEnd.classList.add("time-end");
-            timeEnd.textContent = endStr;
-            timeDiv.appendChild(timeEnd);
+        if (!creditLike) {
+            const endStr = getPairedLessonEndTime(lesson.time);
+            if (endStr) {
+                const timeEnd = document.createElement("span");
+                timeEnd.classList.add("time-end");
+                timeEnd.textContent = endStr;
+                timeDiv.appendChild(timeEnd);
+            }
         }
 
         const colorDiv = document.createElement("div");
@@ -241,9 +249,22 @@ function renderSchedule(transition = "") {
         const titleRow = document.createElement("div");
         titleRow.classList.add("lesson-title-row");
 
+        const meta = findSubjectMeta(lesson);
+        const { tail } = parseLessonTimeField(lesson.time);
+        let subjText = (meta && meta.subject) ? meta.subject : "";
+        if (!subjText) {
+            const rawSubj = String(lesson.subject || "").trim();
+            if (rawSubj && !/^unknown$/i.test(rawSubj)) {
+                subjText = rawSubj;
+            }
+        }
+        if (!subjText) {
+            subjText = extractAbbrevFromExamTail(tail) || "—";
+        }
+
         const subjectDiv = document.createElement("div");
         subjectDiv.classList.add("lesson-subject");
-        subjectDiv.innerText = lesson.subject || "";
+        subjectDiv.innerText = subjText;
         titleRow.appendChild(subjectDiv);
 
         if (settings.showSubgroup && lesson.subgroup) {
@@ -258,6 +279,19 @@ function renderSchedule(transition = "") {
         roomDiv.innerText = lesson.room ? `Кабинет: ${lesson.room}` : "";
 
         detailsDiv.appendChild(titleRow);
+        if (creditLike) {
+            let examRaw = lesson.exam_type != null && String(lesson.exam_type).trim()
+                ? String(lesson.exam_type).trim()
+                : inferExamTypeRawFromTail(tail);
+            let examLabel = formatExamTypeDisplay(examRaw);
+            if (!examLabel) {
+                examLabel = "Зачёт";
+            }
+            const examDiv = document.createElement("div");
+            examDiv.classList.add("lesson-exam-kind");
+            examDiv.textContent = examLabel;
+            detailsDiv.appendChild(examDiv);
+        }
         detailsDiv.appendChild(roomDiv);
 
         row.appendChild(timeDiv);
@@ -349,14 +383,82 @@ function getWeekMonthCaption() {
     return `${MONTH_NAMES_RU[m0]} - ${MONTH_NAMES_RU[m1]}`;
 }
 
+function extractLessonClock(timeStr) {
+    const m = String(timeStr || "").trim().match(/^(\d{1,2}:\d{2})\b/);
+    if (!m) {
+        return "";
+    }
+    const parts = m[1].split(":");
+    const h = parseInt(parts[0], 10);
+    const min = parseInt(parts[1], 10);
+    if (Number.isNaN(h) || Number.isNaN(min)) {
+        return "";
+    }
+    return `${String(h).padStart(2, "0")}:${String(min).padStart(2, "0")}`;
+}
+
+function parseLessonTimeField(timeStr) {
+    const full = String(timeStr || "").trim();
+    const clock = extractLessonClock(full);
+    const tail = clock ? full.slice(full.indexOf(clock) + clock.length).trim() : "";
+    return { clock, tail };
+}
+
+const EXAM_TAIL_STOPWORDS = new Set(["зачет", "зачёт", "экзамен", "диф"]);
+
+function extractAbbrevFromExamTail(tail) {
+    const tokens = String(tail || "").split(/\s+/).filter(Boolean);
+    for (let i = tokens.length - 1; i >= 0; i -= 1) {
+        const raw = tokens[i].replace(/[^a-zA-Zа-яА-ЯёЁ0-9]/g, "");
+        if (!raw) {
+            continue;
+        }
+        const low = raw.toLowerCase();
+        if (EXAM_TAIL_STOPWORDS.has(low)) {
+            continue;
+        }
+        return raw;
+    }
+    return "";
+}
+
+function inferExamTypeRawFromTail(tail) {
+    const low = String(tail || "").toLowerCase();
+    if (low.includes("экзамен")) {
+        return "экзамен";
+    }
+    if (/диф/.test(low)) {
+        return "диф зачет";
+    }
+    if (low.includes("зачет") || low.includes("зачёт")) {
+        return "зачет";
+    }
+    return "";
+}
+
+function isCreditLikeLesson(lesson) {
+    return normalizeLessonType(lesson.type) === "credit";
+}
+
 function findSubjectMeta(lesson) {
     const block = scheduleData[currentGroup];
     const list = block && Array.isArray(block.subjects) ? block.subjects : [];
-    const key = (lesson.subject || "").trim();
-    return list.find((s) => (s.abbreviation || "").trim() === key) || null;
+    let key = (lesson.subject || "").trim();
+    if (!key || /^unknown$/i.test(key)) {
+        const { tail } = parseLessonTimeField(lesson.time);
+        key = extractAbbrevFromExamTail(tail);
+    }
+    if (!key) {
+        return null;
+    }
+    const keyLow = key.toLowerCase();
+    return list.find((s) => (s.abbreviation || "").trim().toLowerCase() === keyLow) || null;
 }
 
 function getTeacherForLessonType(lesson, meta) {
+    if (lesson.teacher && String(lesson.teacher).trim()) {
+        return String(lesson.teacher).trim();
+    }
     if (!meta) {
         return "";
     }
@@ -407,10 +509,11 @@ const LESSON_SLOT_MINUTES = 40;
 const LESSON_BREAK_MINUTES = 5;
 
 function parseTimeToMinutes(timeStr) {
-    const parts = String(timeStr || "").trim().split(":");
-    if (parts.length < 2) {
+    const clock = extractLessonClock(timeStr);
+    if (!clock) {
         return null;
     }
+    const parts = clock.split(":");
     const h = parseInt(parts[0], 10);
     const m = parseInt(parts[1], 10);
     if (Number.isNaN(h) || Number.isNaN(m)) {
@@ -467,7 +570,17 @@ function appendModalRow(container, label, value, options = {}) {
 
 function openLessonModal(lesson) {
     const meta = findSubjectMeta(lesson);
-    const title = (meta && meta.subject) ? meta.subject : ((lesson.subject || "").trim() || "Занятие");
+    const { tail } = parseLessonTimeField(lesson.time);
+    let title = (meta && meta.subject) ? meta.subject : "";
+    if (!title) {
+        const rawSubj = String(lesson.subject || "").trim();
+        if (rawSubj && !/^unknown$/i.test(rawSubj)) {
+            title = rawSubj;
+        }
+    }
+    if (!title) {
+        title = extractAbbrevFromExamTail(tail) || "Занятие";
+    }
     lessonModalTitle.textContent = title;
     lessonModalBody.innerHTML = "";
 
@@ -479,17 +592,32 @@ function openLessonModal(lesson) {
     if (lesson.room && String(lesson.room).trim()) {
         appendModalRow(lessonModalBody, "Аудитория", String(lesson.room).trim());
     }
-    if (lesson.time && String(lesson.time).trim()) {
-        const rawTime = String(lesson.time).trim();
+    const rawTime = String(lesson.time || "").trim();
+    const clock = extractLessonClock(rawTime);
+    const creditLike = isCreditLikeLesson(lesson);
+    if (clock) {
         const timeParsed = parseTimeToMinutes(rawTime) !== null;
-        appendModalRow(
-            lessonModalBody,
-            "Время",
-            formatPairedLessonTime(rawTime),
-            { multiline: timeParsed }
-        );
+        if (creditLike) {
+            appendModalRow(lessonModalBody, "Время", clock);
+        } else {
+            appendModalRow(
+                lessonModalBody,
+                "Время",
+                formatPairedLessonTime(rawTime),
+                { multiline: timeParsed }
+            );
+        }
     }
-    const examText = formatExamTypeDisplay(meta && meta.exam_type);
+    let examRaw = lesson.exam_type != null && String(lesson.exam_type).trim()
+        ? String(lesson.exam_type).trim()
+        : inferExamTypeRawFromTail(tail);
+    if (!examRaw && meta && meta.exam_type != null && String(meta.exam_type).trim()) {
+        examRaw = String(meta.exam_type).trim();
+    }
+    let examText = formatExamTypeDisplay(examRaw);
+    if (creditLike && !examText) {
+        examText = "Зачёт";
+    }
     if (examText) {
         appendModalRow(lessonModalBody, "Итоговый контроль", examText);
     }
@@ -516,7 +644,9 @@ function normalizeLessonType(type) {
         лабораторная: "lab",
         credit: "credit",
         зачет: "credit",
-        зачёт: "credit"
+        зачёт: "credit",
+        assessment: "credit",
+        exam: "credit"
     };
     return map[normalized] || "lecture";
 }
@@ -524,7 +654,7 @@ function normalizeLessonType(type) {
 function getLessonTypeColor(type) {
     const normalized = normalizeLessonType(type);
     if (normalized === "credit") {
-        return settings.practice || "#888";
+        return settings.credit || "#8b5cf6";
     }
     return settings[normalized] || "#888";
 }
@@ -546,6 +676,7 @@ document.getElementById("save-settings").onclick = () => {
     settings.lecture = document.getElementById("color-lecture").value;
     settings.practice = document.getElementById("color-practice").value;
     settings.lab = document.getElementById("color-lab").value;
+    settings.credit = document.getElementById("color-credit").value;
     settings.showSubgroup = document.getElementById("show-subgroup").checked;
     settings.subgroupNumber = document.getElementById("subgroup-number").value;
     localStorage.setItem("settings", JSON.stringify(settings));
