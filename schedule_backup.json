@@ -1,0 +1,6219 @@
+{
+  "Управление информационными ресурсами" : {
+    "lecture_room" : "1206",
+    "lab_subjects" : [ [ "СИКПО", "513, 514" ], [ "АиП", "505, 506" ], [ "КГ", "505, 506" ] ],
+    "1д2501УИР" : {
+      "subjects" : [ {
+        "abbreviation" : "Фил",
+        "subject" : "Философия",
+        "lecture_teacher" : "Лаптенок А.С.",
+        "practice_teacher" : "Лаптенок А.С.",
+        "lab_teacher" : "Лаптенок А.С.",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ВМ",
+        "subject" : "Высшая математика",
+        "lecture_teacher" : "Коваленко Н.С.",
+        "practice_teacher" : "Коваленко Н.С.",
+        "lab_teacher" : "Коваленко Н.С.",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ИЯ",
+        "subject" : "Иностранный язык",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ЭТ",
+        "subject" : "Экономическая теория",
+        "lecture_teacher" : "Кристиневич С.А.",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ПЛ",
+        "subject" : "Политология",
+        "lecture_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "practice_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "lab_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "credit_teacher" : "",
+        "exam_type" : "диф зачет",
+        "exam_date" : "04-06-2026"
+      }, {
+        "abbreviation" : "ВОВ",
+        "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
+        "lecture_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "practice_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "lab_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "credit_teacher" : "",
+        "exam_type" : "диф зачет",
+        "exam_date" : "25-05-2026"
+      }, {
+        "abbreviation" : "ЭОУЦТ",
+        "subject" : "Экономика организации в условиях цифровой трансформации",
+        "lecture_teacher" : "Лапицкая Л.М.",
+        "practice_teacher" : "Лапицкая Л.М.",
+        "lab_teacher" : "Лапицкая Л.М.",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : "20-05-2026"
+      }, {
+        "abbreviation" : "СИКПО",
+        "subject" : "Системная интеграция и конфигурирование программного обеспечения",
+        "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "practice_teacher" : "",
+        "lab_teacher" : "Гваева Ирена Викторовна +375 (17) 229-51-97, Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "credit_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "exam_type" : "зачет",
+        "exam_date" : "29-05-2026"
+      }, {
+        "abbreviation" : "АиП",
+        "subject" : "Алгоритмизация и программирование",
+        "lecture_teacher" : "Иванис П.В.",
+        "practice_teacher" : "",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Шабанович Роман Александрович +375 (17) 229-51-98",
+        "credit_teacher" : "Иванис П.В.",
+        "exam_type" : "зачет",
+        "exam_date" : "02-06-2026"
+      }, {
+        "abbreviation" : "КГ",
+        "subject" : "Компьютерная графика",
+        "lecture_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
+        "practice_teacher" : "",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Виноградова Ирина Владимировна +375 (17) 229-51-97",
+        "credit_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
+        "exam_type" : "зачет",
+        "exam_date" : "03-06-2026"
+      }, {
+        "abbreviation" : "ФК",
+        "subject" : "Физическая культура",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "БЖЧ",
+        "subject" : "Безопасность жизнедеятельности человека",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : "05-06-2026"
+      }, {
+        "abbreviation" : "КЧ",
+        "subject" : "Кураторский час",
+        "lecture_teacher" : "Журко Андрей Александрович ",
+        "practice_teacher" : "Журко Андрей Александрович ",
+        "lab_teacher" : "Журко Андрей Александрович ",
+        "credit_teacher" : "",
+        "exam_type" : null,
+        "exam_date" : null
+      } ],
+      "2026-02-09" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-10" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-11" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-12" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-13" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-14" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "508",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-16" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-17" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-18" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-19" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-20" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-21" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "508",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-23" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "513",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-24" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ПЛ",
+        "room" : "1108",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-25" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-26" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-27" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-28" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ПЛ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-02" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-03" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-04" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-05" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-06" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-07" : [ {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-09" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-10" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-11" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-12" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1005",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-13" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-14" : [ {
+        "time" : "08:30",
+        "subject" : "ФК",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-16" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-17" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-18" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-19" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-20" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-21" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-23" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-24" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-25" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-26" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-27" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-28" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-30" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-31" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-01" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-02" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-03" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-04" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ПЛ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-06" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-07" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-08" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-09" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-10" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-11" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-13" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-14" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-15" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-16" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-17" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-18" : [ {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ПЛ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-22" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-23" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-24" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-25" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-27" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-28" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-29" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-30" : [ {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-04" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-05" : [ {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-06" : [ {
+        "time" : "08:30",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-07" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-08" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-11" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-12" : [ {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-13" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-14" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-15" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-16" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-18" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-19" : [ {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-20" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭОУЦТ",
+        "room" : "1014",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "20-05-2026",
+        "teacher" : "Лапицкая Л.М.",
+        "subgroup" : null
+      } ],
+      "2026-05-21" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "АиП",
+        "room" : "505",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-22" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-23" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-25" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ВОВ",
+        "room" : "1014",
+        "type" : "credit",
+        "exam_type" : "диф зачет",
+        "exam_date" : "25-05-2026",
+        "teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "subgroup" : null
+      } ],
+      "2026-05-26" : [ {
+        "time" : "16:35 Зачет ФК",
+        "subject" : "UNKNOWN",
+        "room" : "",
+        "type" : "assessment",
+        "exam_type" : null,
+        "exam_date" : "26-05-2026",
+        "teacher" : "",
+        "subgroup" : null
+      } ],
+      "2026-05-27" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-28" : [ {
+        "time" : "08:30",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-29" : [ {
+        "time" : "16:35",
+        "subject" : "СИКПО",
+        "room" : "513",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "29-05-2026",
+        "teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "subgroup" : null
+      } ],
+      "2026-05-30" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "712",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ПЛ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-06-01" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-06-02" : [ {
+        "time" : "16:35",
+        "subject" : "АиП",
+        "room" : "518",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "02-06-2026",
+        "teacher" : "Иванис П.В.",
+        "subgroup" : null
+      } ],
+      "2026-06-03" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "505",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "03-06-2026",
+        "teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
+        "subgroup" : null
+      } ],
+      "2026-06-04" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ПЛ",
+        "room" : "1014",
+        "type" : "credit",
+        "exam_type" : "диф зачет",
+        "exam_date" : "04-06-2026",
+        "teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "subgroup" : null
+      } ],
+      "2026-06-05" : [ {
+        "time" : "16:35",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "05-06-2026",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "subgroup" : null
+      } ]
+    },
+    "1д2502УИР" : {
+      "subjects" : [ {
+        "abbreviation" : "Фил",
+        "subject" : "Философия",
+        "lecture_teacher" : "Лаптенок А.С.",
+        "practice_teacher" : "Лаптенок А.С.",
+        "lab_teacher" : "Лаптенок А.С.",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ВМ",
+        "subject" : "Высшая математика",
+        "lecture_teacher" : "Коваленко Н.С.",
+        "practice_teacher" : "Коваленко Н.С.",
+        "lab_teacher" : "Коваленко Н.С.",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ИЯ",
+        "subject" : "Иностранный язык",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ЭТ",
+        "subject" : "Экономическая теория",
+        "lecture_teacher" : "Кристиневич С.А.",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ПЛ",
+        "subject" : "Политология",
+        "lecture_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "practice_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "lab_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "credit_teacher" : "",
+        "exam_type" : "диф зачет",
+        "exam_date" : "03-06-2026"
+      }, {
+        "abbreviation" : "ВОВ",
+        "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
+        "lecture_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "practice_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "lab_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "credit_teacher" : "",
+        "exam_type" : "диф зачет",
+        "exam_date" : "29-05-2026"
+      }, {
+        "abbreviation" : "ЭОУЦТ",
+        "subject" : "Экономика организации в условиях цифровой трансформации",
+        "lecture_teacher" : "Лапицкая Л.М.",
+        "practice_teacher" : "Лапицкая Л.М.",
+        "lab_teacher" : "Лапицкая Л.М.",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : "18-05-2026"
+      }, {
+        "abbreviation" : "СИКПО",
+        "subject" : "Системная интеграция и конфигурирование программного обеспечения",
+        "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "practice_teacher" : "",
+        "lab_teacher" : "Гваева Ирена Викторовна +375 (17) 229-51-97, Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "credit_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "exam_type" : "зачет",
+        "exam_date" : "25-05-2026"
+      }, {
+        "abbreviation" : "АиП",
+        "subject" : "Алгоритмизация и программирование",
+        "lecture_teacher" : "Иванис П.В.",
+        "practice_teacher" : "",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Шабанович Роман Александрович +375 (17) 229-51-98",
+        "credit_teacher" : "Иванис П.В.",
+        "exam_type" : "зачет",
+        "exam_date" : "05-06-2026"
+      }, {
+        "abbreviation" : "КГ",
+        "subject" : "Компьютерная графика",
+        "lecture_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
+        "practice_teacher" : "",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Виноградова Ирина Владимировна +375 (17) 229-51-97",
+        "credit_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
+        "exam_type" : "зачет",
+        "exam_date" : "02-06-2026"
+      }, {
+        "abbreviation" : "ФК",
+        "subject" : "Физическая культура",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "БЖЧ",
+        "subject" : "Безопасность жизнедеятельности человека",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : "04-06-2026"
+      }, {
+        "abbreviation" : "КЧ",
+        "subject" : "Кураторский час",
+        "lecture_teacher" : "Кудрейко Татьяна Владимировна +375 (17) 229-52-49",
+        "practice_teacher" : "Кудрейко Татьяна Владимировна +375 (17) 229-52-49",
+        "lab_teacher" : "Кудрейко Татьяна Владимировна +375 (17) 229-52-49",
+        "credit_teacher" : "",
+        "exam_type" : null,
+        "exam_date" : null
+      } ],
+      "2026-02-09" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-11" : [ {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-14" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "508",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-16" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-18" : [ {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-20" : [ {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-21" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "508",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-23" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "513",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-24" : [ {
+        "time" : "11:50",
+        "subject" : "ПЛ",
+        "room" : "1108",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-25" : [ {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-28" : [ {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-02" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-03" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-04" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-06" : [ {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-07" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ПЛ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-09" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-10" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-11" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-12" : [ {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "505",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-14" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ПЛ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-16" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-17" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-18" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-21" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-23" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-24" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-25" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-28" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-30" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-31" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-01" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-04" : [ {
+        "time" : "11:50",
+        "subject" : "ПЛ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-06" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-07" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-08" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-11" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-13" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-14" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-15" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-18" : [ {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-22" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-25" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-27" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-28" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-29" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-04" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-05" : [ {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-06" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭОУЦТ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-08" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-11" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-12" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-13" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-15" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-16" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-18" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ЭОУЦТ",
+        "room" : "1014",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "18-05-2026",
+        "teacher" : "Лапицкая Л.М.",
+        "subgroup" : null
+      } ],
+      "2026-05-19" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-20" : [ {
+        "time" : "08:30",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-21" : [ {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "518",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513, 514",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "КЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-22" : [ {
+        "time" : "10:05",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-23" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1205",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-25" : [ {
+        "time" : "08:30",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "СИКПО",
+        "room" : "513",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "25-05-2026",
+        "teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "subgroup" : null
+      } ],
+      "2026-05-27" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1018",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-28" : [ {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-29" : [ {
+        "time" : "16:35",
+        "subject" : "ВОВ",
+        "room" : "1014",
+        "type" : "credit",
+        "exam_type" : "диф зачет",
+        "exam_date" : "29-05-2026",
+        "teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "subgroup" : null
+      } ],
+      "2026-05-30" : [ {
+        "time" : "10:05",
+        "subject" : "ПЛ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "1206",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "БЖЧ",
+        "room" : "712",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-01" : [ {
+        "time" : "10:05",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "КГ",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-06-02" : [ {
+        "time" : "16:35",
+        "subject" : "КГ",
+        "room" : "505",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "02-06-2026",
+        "teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
+        "subgroup" : null
+      } ],
+      "2026-06-03" : [ {
+        "time" : "08:30",
+        "subject" : "АиП",
+        "room" : "505, 506",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ПЛ",
+        "room" : "1018",
+        "type" : "credit",
+        "exam_type" : "диф зачет",
+        "exam_date" : "03-06-2026",
+        "teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "subgroup" : null
+      } ],
+      "2026-06-04" : [ {
+        "time" : "08:30",
+        "subject" : "ЭТ",
+        "room" : "1014",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1018",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "04-06-2026",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "subgroup" : null
+      } ],
+      "2026-06-05" : [ {
+        "time" : "16:35",
+        "subject" : "АиП",
+        "room" : "505",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "05-06-2026",
+        "teacher" : "Иванис П.В.",
+        "subgroup" : null
+      } ]
+    }
+  },
+  "Государственное управление и экономика" : {
+    "lecture_room" : "1011",
+    "lab_subjects" : [ [ "ИМ", "508, 512" ] ],
+    "1д2501ГУЭ" : {
+      "subjects" : [ {
+        "abbreviation" : "Фил",
+        "subject" : "Философия",
+        "lecture_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "practice_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "lab_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ИЯ",
+        "subject" : "Иностранный язык",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ВМ",
+        "subject" : "Высшая математика",
+        "lecture_teacher" : "Коваленко Н.С.",
+        "practice_teacher" : "Овсянко Людмила Адамовна +375 (29) 330-92-39",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "МТ",
+        "subject" : "Менеджмент",
+        "lecture_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "practice_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "lab_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ЭТ",
+        "subject" : "Экономическая теория",
+        "lecture_teacher" : "Коврей Валентина Алексеевна +375(17)229-52-48",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37, Таяновская Виктория Александровна + 375 (17) 229-52-48",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ВОВ",
+        "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
+        "lecture_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "practice_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "lab_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "credit_teacher" : "",
+        "exam_type" : "диф зачет",
+        "exam_date" : "03-06-2026"
+      }, {
+        "abbreviation" : "ИМ",
+        "subject" : "Информационный менеджмент",
+        "lecture_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "practice_teacher" : "",
+        "lab_teacher" : "Юранова Тамара Ивановна +375 (17) 229-51-98, Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "credit_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "exam_type" : "зачет",
+        "exam_date" : "27-05-2026"
+      }, {
+        "abbreviation" : "ФК",
+        "subject" : "Физическая культура",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "БЖЧ",
+        "subject" : "Безопасность жизнедеятельности человека",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : "01-06-2026"
+      }, {
+        "abbreviation" : "КЧ",
+        "subject" : "Кураторский час",
+        "lecture_teacher" : "Бутько Маргарита Эдуардовна +375172266974",
+        "practice_teacher" : "Бутько Маргарита Эдуардовна +375172266974",
+        "lab_teacher" : "Бутько Маргарита Эдуардовна +375172266974",
+        "credit_teacher" : "",
+        "exam_type" : null,
+        "exam_date" : null
+      } ],
+      "2026-02-09" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-10" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-11" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-12" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-13" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-14" : [ {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-16" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-17" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-18" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-19" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-20" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-21" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "818",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-23" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-02-24" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "608",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-25" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-26" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "818",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-27" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-28" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-02" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-03" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-04" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-05" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-06" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-07" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-09" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-10" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-11" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-12" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-13" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-14" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-16" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-17" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-18" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-19" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-20" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-21" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-23" : [ {
+        "time" : "08:30",
+        "subject" : "ФК",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-24" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-25" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-26" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-27" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-28" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-30" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-03-31" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-01" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-02" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-03" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-04" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-06" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-07" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-08" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-09" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-10" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-11" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-13" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-14" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-15" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-16" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-17" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-18" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-22" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-23" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-24" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-25" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-27" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-04-28" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-29" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-30" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-04" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-05" : [ {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-06" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "1009",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-07" : [ {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-08" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-11" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      } ],
+      "2026-05-12" : [ {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-13" : [ {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-14" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-15" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-16" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-18" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-19" : [ {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-20" : [ {
+        "time" : "11:50",
+        "subject" : "МТ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-21" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-22" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-05-23" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-25" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1011",
+        "type" : "lecture",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-26" : [ {
+        "time" : "16:35",
+        "subject" : "БЖЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "18:20",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-27" : [ {
+        "time" : "08:40",
+        "subject" : "ИМ",
+        "room" : "508",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "27-05-2026",
+        "teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-28" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-29" : [ {
+        "time" : "16:35 Зачет ФК",
+        "subject" : "UNKNOWN",
+        "room" : "",
+        "type" : "assessment",
+        "exam_type" : null,
+        "exam_date" : "29-05-2026",
+        "teacher" : "",
+        "subgroup" : null
+      } ],
+      "2026-05-30" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "БЖЧ",
+        "room" : "1009",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-01" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "01-06-2026",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "subgroup" : null
+      } ],
+      "2026-06-02" : [ {
+        "time" : "16:35",
+        "subject" : "ЭТ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "18:20",
+        "subject" : "Фил",
+        "room" : "1009",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-03" : [ {
+        "time" : "08:40",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "credit",
+        "exam_type" : "диф зачет",
+        "exam_date" : "03-06-2026",
+        "teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-04" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-05" : [ {
+        "time" : "16:35",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "18:20",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ]
+    },
+    "1д2502ГУЭ" : {
+      "subjects" : [ {
+        "abbreviation" : "Фил",
+        "subject" : "Философия",
+        "lecture_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "practice_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "lab_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ИЯ",
+        "subject" : "Иностранный язык",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ВМ",
+        "subject" : "Высшая математика",
+        "lecture_teacher" : "Коваленко Н.С.",
+        "practice_teacher" : "Овсянко Людмила Адамовна +375 (29) 330-92-39",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "МТ",
+        "subject" : "Менеджмент",
+        "lecture_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "practice_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "lab_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ЭТ",
+        "subject" : "Экономическая теория",
+        "lecture_teacher" : "Коврей Валентина Алексеевна +375(17)229-52-48",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37, Таяновская Виктория Александровна + 375 (17) 229-52-48",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "экзамен",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "ВОВ",
+        "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
+        "lecture_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "practice_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "lab_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "credit_teacher" : "",
+        "exam_type" : "диф зачет",
+        "exam_date" : "27-05-2026"
+      }, {
+        "abbreviation" : "ИМ",
+        "subject" : "Информационный менеджмент",
+        "lecture_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "practice_teacher" : "",
+        "lab_teacher" : "Юранова Тамара Ивановна +375 (17) 229-51-98, Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "credit_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "exam_type" : "зачет",
+        "exam_date" : "01-06-2026"
+      }, {
+        "abbreviation" : "ФК",
+        "subject" : "Физическая культура",
+        "lecture_teacher" : "",
+        "practice_teacher" : "",
+        "lab_teacher" : "",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : null
+      }, {
+        "abbreviation" : "БЖЧ",
+        "subject" : "Безопасность жизнедеятельности человека",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "credit_teacher" : "",
+        "exam_type" : "зачет",
+        "exam_date" : "03-06-2026"
+      }, {
+        "abbreviation" : "КЧ",
+        "subject" : "Кураторский час",
+        "lecture_teacher" : "Радькова Светлана Анатольевна +375 (17) 229-52-47",
+        "practice_teacher" : "Радькова Светлана Анатольевна +375 (17) 229-52-47",
+        "lab_teacher" : "Радькова Светлана Анатольевна +375 (17) 229-52-47",
+        "credit_teacher" : "",
+        "exam_type" : null,
+        "exam_date" : null
+      } ],
+      "2026-02-09" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-11" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-14" : [ {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-16" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-18" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-19" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-21" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "818",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-23" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-24" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "608",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-25" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-26" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "818",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-02-27" : [ {
+        "time" : "08:30",
+        "subject" : "МТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-02-28" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-02" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-03" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-04" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-05" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-06" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-07" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-09" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-10" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-11" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-12" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-13" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-14" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-16" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-17" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-18" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-19" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-20" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-21" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-23" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-24" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "611",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-03-25" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-26" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-27" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-28" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-30" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-03-31" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-01" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-02" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-03" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-04" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-06" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-07" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-08" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-09" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-10" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-11" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-13" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-14" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-15" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-16" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-17" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-18" : [ {
+        "time" : "08:30",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-22" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-23" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-24" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-25" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-27" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-28" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      } ],
+      "2026-04-29" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-04-30" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-04" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-05" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-06" : [ {
+        "time" : "08:30",
+        "subject" : "КЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-07" : [ {
+        "time" : "10:05",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-08" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-11" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-12" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-13" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-14" : [ {
+        "time" : "08:30",
+        "subject" : "ЭТ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-15" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-16" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "908",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-18" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-19" : [ {
+        "time" : "10:05",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "БЖЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-20" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-21" : [ {
+        "time" : "08:30",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-22" : [ {
+        "time" : "08:30",
+        "subject" : "ИМ",
+        "room" : "508, 512",
+        "type" : "lab",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-23" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-25" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "КЧ",
+        "room" : "1009",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-26" : [ {
+        "time" : "16:35",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "18:20",
+        "subject" : "БЖЧ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-27" : [ {
+        "time" : "08:40",
+        "subject" : "ВОВ",
+        "room" : "1008",
+        "type" : "credit",
+        "exam_type" : "диф зачет",
+        "exam_date" : "27-05-2026",
+        "teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "subgroup" : null
+      }, {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-28" : [ {
+        "time" : "08:30",
+        "subject" : "Фил",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-05-30" : [ {
+        "time" : "08:30",
+        "subject" : "БЖЧ",
+        "room" : "1009",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "ВМ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-01" : [ {
+        "time" : "10:05",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИМ",
+        "room" : "508",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "01-06-2026",
+        "teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "subgroup" : null
+      } ],
+      "2026-06-02" : [ {
+        "time" : "16:35",
+        "subject" : "Фил",
+        "room" : "1009",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "18:20",
+        "subject" : "ЭТ",
+        "room" : "1008",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-03" : [ {
+        "time" : "13:25",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "15:00",
+        "subject" : "БЖЧ",
+        "room" : "1008",
+        "type" : "credit",
+        "exam_type" : "зачет",
+        "exam_date" : "03-06-2026",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "subgroup" : null
+      } ],
+      "2026-06-04" : [ {
+        "time" : "08:30",
+        "subject" : "ВМ",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "10:05",
+        "subject" : "МТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "11:50",
+        "subject" : "ИЯ",
+        "room" : "",
+        "type" : "practice",
+        "subgroup" : null
+      } ],
+      "2026-06-05" : [ {
+        "time" : "16:35",
+        "subject" : "Фил",
+        "room" : "912",
+        "type" : "practice",
+        "subgroup" : null
+      }, {
+        "time" : "18:20",
+        "subject" : "ЭТ",
+        "room" : "911",
+        "type" : "practice",
+        "subgroup" : null
+      } ]
+    }
+  }
+}
