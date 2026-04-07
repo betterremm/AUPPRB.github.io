@@ -15,7 +15,7 @@ let settingsReturnScreen = "group-selection";
 
 const dayLabels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-const EARLY_TESTERS_NOTICE = `Спасибо, что тестируете это приложение. Если возникают какие то вопросы по функционалу (баги, вылеты, и тому подобное),а также если присутствуют проблемы с правильностью расписания или дизайнерскими решениями)) то пишите в тг @mishas23. Остальные группы будут добавлены в ближайшее время. ГУП сделаю только если попросят.`;
+const EARLY_TESTERS_NOTICE = `Любые недочеты и проблемы - пишите tg: @mishas23`;
 
 const groupSelectionScreen = document.getElementById("group-selection");
 const mainScreen = document.getElementById("main-screen");
