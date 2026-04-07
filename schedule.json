@@ -34,7 +34,7 @@
         "abbreviation" : "ЭТ",
         "subject" : "Экономическая теория",
         "lecture_teacher" : "Кристиневич С.А.",
-        "practice_teacher" : "Маслак Д.А.",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -42,18 +42,18 @@
       }, {
         "abbreviation" : "ПЛ",
         "subject" : "Политология",
-        "lecture_teacher" : "Еськевич К.Р.",
-        "practice_teacher" : "Еськевич К.Р.",
-        "lab_teacher" : "Еськевич К.Р.",
+        "lecture_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "practice_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "lab_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
         "credit_teacher" : "",
         "exam_type" : "диф зачет",
         "exam_date" : "04-06-2026"
       }, {
         "abbreviation" : "ВОВ",
         "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
-        "lecture_teacher" : "Бригадин Д.П.",
-        "practice_teacher" : "Бригадин Д.П.",
-        "lab_teacher" : "Бригадин Д.П.",
+        "lecture_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "practice_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "lab_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
         "credit_teacher" : "",
         "exam_type" : "диф зачет",
         "exam_date" : "25-05-2026"
@@ -69,10 +69,10 @@
       }, {
         "abbreviation" : "СИКПО",
         "subject" : "Системная интеграция и конфигурирование программного обеспечения",
-        "lecture_teacher" : "Щербович Ж.И.",
+        "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "practice_teacher" : "",
-        "lab_teacher" : "Щербович Ж.И., Гваева И.В.",
-        "credit_teacher" : "Щербович Ж.И.",
+        "lab_teacher" : "Гваева Ирена Викторовна +375 (17) 229-51-97, Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "credit_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "exam_type" : "зачет",
         "exam_date" : "29-05-2026"
       }, {
@@ -80,17 +80,17 @@
         "subject" : "Алгоритмизация и программирование",
         "lecture_teacher" : "Иванис П.В.",
         "practice_teacher" : "",
-        "lab_teacher" : "Пивоварчик И.Н., Шабанович Р.А.",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Шабанович Роман Александрович +375 (17) 229-51-98",
         "credit_teacher" : "Иванис П.В.",
         "exam_type" : "зачет",
         "exam_date" : "02-06-2026"
       }, {
         "abbreviation" : "КГ",
         "subject" : "Компьютерная графика",
-        "lecture_teacher" : "Пивоварчик И.Н.",
+        "lecture_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
         "practice_teacher" : "",
-        "lab_teacher" : "Пивоварчик И.Н., Виноградова И.В.",
-        "credit_teacher" : "Пивоварчик И.Н.",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Виноградова Ирина Владимировна +375 (17) 229-51-97",
+        "credit_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
         "exam_type" : "зачет",
         "exam_date" : "03-06-2026"
       }, {
@@ -105,18 +105,18 @@
       }, {
         "abbreviation" : "БЖЧ",
         "subject" : "Безопасность жизнедеятельности человека",
-        "lecture_teacher" : "Малаш Н.И.",
-        "practice_teacher" : "Малаш Н.И.",
-        "lab_teacher" : "Малаш Н.И.",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "credit_teacher" : "",
         "exam_type" : "зачет",
         "exam_date" : "05-06-2026"
       }, {
         "abbreviation" : "КЧ",
         "subject" : "Кураторский час",
-        "lecture_teacher" : "Журко А.А.",
-        "practice_teacher" : "Журко А.А.",
-        "lab_teacher" : "Журко А.А.",
+        "lecture_teacher" : "Журко Андрей Александрович ",
+        "practice_teacher" : "Журко Андрей Александрович ",
+        "lab_teacher" : "Журко Андрей Александрович ",
         "credit_teacher" : "",
         "exam_type" : null,
         "exam_date" : null
@@ -1896,7 +1896,7 @@
         "type" : "credit",
         "exam_type" : "диф зачет",
         "exam_date" : "25-05-2026",
-        "teacher" : "Бригадин Д.П.",
+        "teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
         "subgroup" : null
       } ],
       "2026-05-26" : [ {
@@ -1954,7 +1954,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "29-05-2026",
-        "teacher" : "Щербович Ж.И.",
+        "teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "subgroup" : null
       } ],
       "2026-05-30" : [ {
@@ -2030,7 +2030,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "03-06-2026",
-        "teacher" : "Пивоварчик И.Н.",
+        "teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
         "subgroup" : null
       } ],
       "2026-06-04" : [ {
@@ -2046,7 +2046,7 @@
         "type" : "credit",
         "exam_type" : "диф зачет",
         "exam_date" : "04-06-2026",
-        "teacher" : "Еськевич К.Р.",
+        "teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
         "subgroup" : null
       } ],
       "2026-06-05" : [ {
@@ -2056,7 +2056,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "05-06-2026",
-        "teacher" : "Малаш Н.И.",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "subgroup" : null
       } ]
     },
@@ -2092,7 +2092,7 @@
         "abbreviation" : "ЭТ",
         "subject" : "Экономическая теория",
         "lecture_teacher" : "Кристиневич С.А.",
-        "practice_teacher" : "Маслак Д.А.",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -2100,18 +2100,18 @@
       }, {
         "abbreviation" : "ПЛ",
         "subject" : "Политология",
-        "lecture_teacher" : "Еськевич К.Р.",
-        "practice_teacher" : "Еськевич К.Р.",
-        "lab_teacher" : "Еськевич К.Р.",
+        "lecture_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "practice_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
+        "lab_teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
         "credit_teacher" : "",
         "exam_type" : "диф зачет",
         "exam_date" : "03-06-2026"
       }, {
         "abbreviation" : "ВОВ",
         "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
-        "lecture_teacher" : "Бригадин Д.П.",
-        "practice_teacher" : "Бригадин Д.П.",
-        "lab_teacher" : "Бригадин Д.П.",
+        "lecture_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "practice_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
+        "lab_teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
         "credit_teacher" : "",
         "exam_type" : "диф зачет",
         "exam_date" : "29-05-2026"
@@ -2127,10 +2127,10 @@
       }, {
         "abbreviation" : "СИКПО",
         "subject" : "Системная интеграция и конфигурирование программного обеспечения",
-        "lecture_teacher" : "Щербович Ж.И.",
+        "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "practice_teacher" : "",
-        "lab_teacher" : "Щербович Ж.И., Гваева И.В.",
-        "credit_teacher" : "Щербович Ж.И.",
+        "lab_teacher" : "Гваева Ирена Викторовна +375 (17) 229-51-97, Щербович Жанна Ивановна +375 (17) 229-51-97",
+        "credit_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "exam_type" : "зачет",
         "exam_date" : "25-05-2026"
       }, {
@@ -2138,17 +2138,17 @@
         "subject" : "Алгоритмизация и программирование",
         "lecture_teacher" : "Иванис П.В.",
         "practice_teacher" : "",
-        "lab_teacher" : "Пивоварчик И.Н., Шабанович Р.А.",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Шабанович Роман Александрович +375 (17) 229-51-98",
         "credit_teacher" : "Иванис П.В.",
         "exam_type" : "зачет",
         "exam_date" : "05-06-2026"
       }, {
         "abbreviation" : "КГ",
         "subject" : "Компьютерная графика",
-        "lecture_teacher" : "Пивоварчик И.Н.",
+        "lecture_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
         "practice_teacher" : "",
-        "lab_teacher" : "Пивоварчик И.Н., Виноградова И.В.",
-        "credit_teacher" : "Пивоварчик И.Н.",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Виноградова Ирина Владимировна +375 (17) 229-51-97",
+        "credit_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
         "exam_type" : "зачет",
         "exam_date" : "02-06-2026"
       }, {
@@ -2163,18 +2163,18 @@
       }, {
         "abbreviation" : "БЖЧ",
         "subject" : "Безопасность жизнедеятельности человека",
-        "lecture_teacher" : "Малаш Н.И.",
-        "practice_teacher" : "Малаш Н.И.",
-        "lab_teacher" : "Малаш Н.И.",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "credit_teacher" : "",
         "exam_type" : "зачет",
         "exam_date" : "04-06-2026"
       }, {
         "abbreviation" : "КЧ",
         "subject" : "Кураторский час",
-        "lecture_teacher" : "Кудрейко Т.В.",
-        "practice_teacher" : "Кудрейко Т.В.",
-        "lab_teacher" : "Кудрейко Т.В.",
+        "lecture_teacher" : "Кудрейко Татьяна Владимировна +375 (17) 229-52-49",
+        "practice_teacher" : "Кудрейко Татьяна Владимировна +375 (17) 229-52-49",
+        "lab_teacher" : "Кудрейко Татьяна Владимировна +375 (17) 229-52-49",
         "credit_teacher" : "",
         "exam_type" : null,
         "exam_date" : null
@@ -3192,7 +3192,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "25-05-2026",
-        "teacher" : "Щербович Ж.И.",
+        "teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "subgroup" : null
       } ],
       "2026-05-27" : [ {
@@ -3240,7 +3240,7 @@
         "type" : "credit",
         "exam_type" : "диф зачет",
         "exam_date" : "29-05-2026",
-        "teacher" : "Бригадин Д.П.",
+        "teacher" : "Бригадин Денис Петрович +375 (17) 229-51-76",
         "subgroup" : null
       } ],
       "2026-05-30" : [ {
@@ -3288,7 +3288,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "02-06-2026",
-        "teacher" : "Пивоварчик И.Н.",
+        "teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96",
         "subgroup" : null
       } ],
       "2026-06-03" : [ {
@@ -3310,7 +3310,7 @@
         "type" : "credit",
         "exam_type" : "диф зачет",
         "exam_date" : "03-06-2026",
-        "teacher" : "Еськевич К.Р.",
+        "teacher" : "Еськевич Константин Романович +375 (17) 229-51-85",
         "subgroup" : null
       } ],
       "2026-06-04" : [ {
@@ -3326,7 +3326,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "04-06-2026",
-        "teacher" : "Малаш Н.И.",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "subgroup" : null
       } ],
       "2026-06-05" : [ {
@@ -3348,9 +3348,9 @@
       "subjects" : [ {
         "abbreviation" : "Фил",
         "subject" : "Философия",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "practice_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "lab_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
@@ -3366,8 +3366,8 @@
       }, {
         "abbreviation" : "ВМ",
         "subject" : "Высшая математика",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
+        "lecture_teacher" : "Коваленко Н.С.",
+        "practice_teacher" : "Овсянко Людмила Адамовна +375 (29) 330-92-39",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -3375,17 +3375,17 @@
       }, {
         "abbreviation" : "МТ",
         "subject" : "Менеджмент",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "practice_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "lab_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
       }, {
         "abbreviation" : "ЭТ",
         "subject" : "Экономическая теория",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
+        "lecture_teacher" : "Коврей Валентина Алексеевна +375(17)229-52-48",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37, Таяновская Виктория Александровна + 375 (17) 229-52-48",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -3393,19 +3393,19 @@
       }, {
         "abbreviation" : "ВОВ",
         "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "practice_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "lab_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
         "credit_teacher" : "",
         "exam_type" : "диф зачет",
         "exam_date" : "03-06-2026"
       }, {
         "abbreviation" : "ИМ",
         "subject" : "Информационный менеджмент",
-        "lecture_teacher" : "",
+        "lecture_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
         "practice_teacher" : "",
-        "lab_teacher" : "",
-        "credit_teacher" : "",
+        "lab_teacher" : "Юранова Тамара Ивановна +375 (17) 229-51-98, Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "credit_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
         "exam_type" : "зачет",
         "exam_date" : "27-05-2026"
       }, {
@@ -3420,18 +3420,18 @@
       }, {
         "abbreviation" : "БЖЧ",
         "subject" : "Безопасность жизнедеятельности человека",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "credit_teacher" : "",
         "exam_type" : "зачет",
         "exam_date" : "01-06-2026"
       }, {
         "abbreviation" : "КЧ",
         "subject" : "Кураторский час",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Бутько Маргарита Эдуардовна +375172266974",
+        "practice_teacher" : "Бутько Маргарита Эдуардовна +375172266974",
+        "lab_teacher" : "Бутько Маргарита Эдуардовна +375172266974",
         "credit_teacher" : "",
         "exam_type" : null,
         "exam_date" : null
@@ -4946,7 +4946,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "27-05-2026",
-        "teacher" : "",
+        "teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -5010,7 +5010,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "01-06-2026",
-        "teacher" : "",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "subgroup" : null
       } ],
       "2026-06-02" : [ {
@@ -5033,7 +5033,7 @@
         "type" : "credit",
         "exam_type" : "диф зачет",
         "exam_date" : "03-06-2026",
-        "teacher" : "",
+        "teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -5079,9 +5079,9 @@
       "subjects" : [ {
         "abbreviation" : "Фил",
         "subject" : "Философия",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "practice_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
+        "lab_teacher" : "Касперович Галина Ивановна +375(17) 229-51-76",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
@@ -5097,8 +5097,8 @@
       }, {
         "abbreviation" : "ВМ",
         "subject" : "Высшая математика",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
+        "lecture_teacher" : "Коваленко Н.С.",
+        "practice_teacher" : "Овсянко Людмила Адамовна +375 (29) 330-92-39",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -5106,17 +5106,17 @@
       }, {
         "abbreviation" : "МТ",
         "subject" : "Менеджмент",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "practice_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
+        "lab_teacher" : "Климкович Надежда Ивановна (+375 17) 2295248",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
       }, {
         "abbreviation" : "ЭТ",
         "subject" : "Экономическая теория",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
+        "lecture_teacher" : "Коврей Валентина Алексеевна +375(17)229-52-48",
+        "practice_teacher" : "Маслак Дмитрий Александрович + 375 (17) 229-52-37, Таяновская Виктория Александровна + 375 (17) 229-52-48",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -5124,19 +5124,19 @@
       }, {
         "abbreviation" : "ВОВ",
         "subject" : "Великая Отечественная Война советского народа (в контексте Второй мировой войны)",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "practice_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
+        "lab_teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
         "credit_teacher" : "",
         "exam_type" : "диф зачет",
         "exam_date" : "27-05-2026"
       }, {
         "abbreviation" : "ИМ",
         "subject" : "Информационный менеджмент",
-        "lecture_teacher" : "",
+        "lecture_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
         "practice_teacher" : "",
-        "lab_teacher" : "",
-        "credit_teacher" : "",
+        "lab_teacher" : "Юранова Тамара Ивановна +375 (17) 229-51-98, Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
+        "credit_teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
         "exam_type" : "зачет",
         "exam_date" : "01-06-2026"
       }, {
@@ -5151,18 +5151,18 @@
       }, {
         "abbreviation" : "БЖЧ",
         "subject" : "Безопасность жизнедеятельности человека",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "practice_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
+        "lab_teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "credit_teacher" : "",
         "exam_type" : "зачет",
         "exam_date" : "03-06-2026"
       }, {
         "abbreviation" : "КЧ",
         "subject" : "Кураторский час",
-        "lecture_teacher" : "",
-        "practice_teacher" : "",
-        "lab_teacher" : "",
+        "lecture_teacher" : "Радькова Светлана Анатольевна +375 (17) 229-52-47",
+        "practice_teacher" : "Радькова Светлана Анатольевна +375 (17) 229-52-47",
+        "lab_teacher" : "Радькова Светлана Анатольевна +375 (17) 229-52-47",
         "credit_teacher" : "",
         "exam_type" : null,
         "exam_date" : null
@@ -6096,7 +6096,7 @@
         "type" : "credit",
         "exam_type" : "диф зачет",
         "exam_date" : "27-05-2026",
-        "teacher" : "",
+        "teacher" : "Кузнецова Анжелика Владимировна +375 (17) 229-50-46",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -6150,7 +6150,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "01-06-2026",
-        "teacher" : "",
+        "teacher" : "Шаститко Дмитрий Витальевич +375 (17) 229-50-86",
         "subgroup" : null
       } ],
       "2026-06-02" : [ {
@@ -6179,7 +6179,7 @@
         "type" : "credit",
         "exam_type" : "зачет",
         "exam_date" : "03-06-2026",
-        "teacher" : "",
+        "teacher" : "Малаш Наталья Ивановна +375 (17) 229-52-31",
         "subgroup" : null
       } ],
       "2026-06-04" : [ {
