@@ -1,3 +1,4 @@
+const tg = window.Telegram.WebApp;
 let scheduleData = {};
 let currentGroup = null;
 let settings = {
@@ -975,6 +976,10 @@ document.addEventListener("keydown", (e) => {
         closeLessonModal();
     }
 });
+
+
+tg.expand(); // разворачивает на весь экран
+tg.ready();  // сообщает Telegram, что всё загрузилось
 
 setupSwipeNavigation();
 setupWeekDaysSwipeNavigation();
