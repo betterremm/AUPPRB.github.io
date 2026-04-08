@@ -15,7 +15,7 @@ let settingsReturnScreen = "group-selection";
 
 const dayLabels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-const EARLY_TESTERS_NOTICE = `Любые недочеты и проблемы - пишите tg: @mishas23`;
+// const EARLY_TESTERS_NOTICE = `Любые недочеты и проблемы - пишите tg: @mishas23`;
 
 const groupSelectionScreen = document.getElementById("group-selection");
 const mainScreen = document.getElementById("main-screen");
