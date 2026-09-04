@@ -232,7 +232,7 @@
         "time" : "08:30",
         "subject" : "ПЛ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -244,7 +244,7 @@
         "time" : "11:50",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -358,7 +358,7 @@
         "time" : "08:30",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -370,7 +370,7 @@
         "time" : "11:50",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -395,7 +395,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-02-24" : [ {
@@ -408,7 +408,7 @@
         "time" : "11:50",
         "subject" : "ЭТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -484,7 +484,7 @@
         "time" : "11:50",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -515,7 +515,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-03" : [ {
@@ -541,7 +541,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -610,7 +610,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -629,7 +629,7 @@
         "time" : "10:05",
         "subject" : "Фил",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -654,7 +654,7 @@
         "time" : "11:50",
         "subject" : "ЭТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -667,7 +667,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -736,7 +736,7 @@
         "time" : "10:05",
         "subject" : "ПЛ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -767,7 +767,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-17" : [ {
@@ -793,7 +793,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -856,7 +856,7 @@
         "time" : "08:30",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -868,7 +868,7 @@
         "time" : "11:50",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -887,7 +887,7 @@
         "time" : "10:05",
         "subject" : "Фил",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -919,7 +919,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -988,7 +988,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -1045,7 +1045,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -1177,7 +1177,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -1246,7 +1246,7 @@
         "time" : "13:25",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "15:00",
@@ -1297,7 +1297,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -1360,7 +1360,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -1379,7 +1379,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -1448,7 +1448,7 @@
         "time" : "13:25",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "15:00",
@@ -1473,7 +1473,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-28" : [ {
@@ -1499,7 +1499,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -1555,7 +1555,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -1587,7 +1587,7 @@
         "time" : "08:30",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -1650,7 +1650,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -1739,7 +1739,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-18" : [ {
@@ -1758,7 +1758,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-19" : [ {
@@ -1862,7 +1862,7 @@
         "time" : "13:25",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "15:00",
@@ -1887,7 +1887,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -1961,7 +1961,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2296,7 +2296,7 @@
         "time" : "10:05",
         "subject" : "ПЛ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2415,14 +2415,14 @@
         "time" : "13:25",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-02-21" : [ {
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2447,7 +2447,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2472,7 +2472,7 @@
         "time" : "13:25",
         "subject" : "ЭТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-02-25" : [ {
@@ -2536,7 +2536,7 @@
         "time" : "10:05",
         "subject" : "ПЛ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2548,7 +2548,7 @@
         "time" : "13:25",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "15:00",
@@ -2567,7 +2567,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2605,7 +2605,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2661,14 +2661,14 @@
         "time" : "13:25",
         "subject" : "БЖЧ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-07" : [ {
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2699,7 +2699,7 @@
         "time" : "11:50",
         "subject" : "Фил",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -2724,7 +2724,7 @@
         "time" : "13:25",
         "subject" : "ЭТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-11" : [ {
@@ -2737,7 +2737,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2806,7 +2806,7 @@
         "time" : "11:50",
         "subject" : "ПЛ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -2825,7 +2825,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2863,7 +2863,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2926,7 +2926,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -2957,7 +2957,7 @@
         "time" : "11:50",
         "subject" : "Фил",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-24" : [ {
@@ -2989,7 +2989,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3052,7 +3052,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -3109,7 +3109,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3241,7 +3241,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3292,7 +3292,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3361,7 +3361,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3424,7 +3424,7 @@
         "time" : "13:25",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "15:00",
@@ -3443,7 +3443,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3494,7 +3494,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3525,7 +3525,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3563,7 +3563,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3607,7 +3607,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3651,7 +3651,7 @@
         "time" : "10:05",
         "subject" : "ЭОУЦТ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3702,7 +3702,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3791,7 +3791,7 @@
         "time" : "08:30",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -3810,7 +3810,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3908,7 +3908,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -3939,7 +3939,7 @@
         "time" : "10:05",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -4025,7 +4025,7 @@
         "time" : "11:50",
         "subject" : "ВМ",
         "room" : "1206",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -4751,7 +4751,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -4783,7 +4783,7 @@
         "time" : "11:50",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-19" : [ {
@@ -4943,7 +4943,7 @@
         "time" : "08:30",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -5057,7 +5057,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -5203,7 +5203,7 @@
         "time" : "11:50",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-16" : [ {
@@ -5273,7 +5273,7 @@
         "time" : "11:50",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-23" : [ {
@@ -5445,7 +5445,7 @@
         "time" : "11:50",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-07" : [ {
@@ -5542,7 +5542,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -6410,7 +6410,7 @@
         "time" : "08:30",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -6442,7 +6442,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -6614,7 +6614,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -6716,7 +6716,7 @@
         "time" : "08:30",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
@@ -6862,7 +6862,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -6932,7 +6932,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -7104,7 +7104,7 @@
         "time" : "10:05",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
@@ -7213,7 +7213,7 @@
         "time" : "11:50",
         "subject" : "ИР",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
@@ -7874,7 +7874,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-03" : [ {
@@ -7976,7 +7976,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-10" : [ {
@@ -7989,7 +7989,7 @@
         "time" : "16:35",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-11" : [ {
@@ -8078,7 +8078,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -8186,14 +8186,14 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-24" : [ {
         "time" : "15:00",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -8282,7 +8282,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -8396,14 +8396,14 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-07" : [ {
         "time" : "15:00",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -8498,7 +8498,7 @@
         "time" : "15:00",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -8670,7 +8670,7 @@
         "time" : "15:00",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -8746,7 +8746,7 @@
         "time" : "16:35",
         "subject" : "УВЭД",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-05" : [ {
@@ -8841,7 +8841,7 @@
         "time" : "16:35",
         "subject" : "УВЭД",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-12" : [ {
@@ -8854,7 +8854,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "18:20",
@@ -8943,7 +8943,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-19" : [ {
@@ -8995,7 +8995,7 @@
         "time" : "15:00",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -9033,7 +9033,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-26" : [ {
@@ -9596,7 +9596,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -9698,7 +9698,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -9711,7 +9711,7 @@
         "time" : "15:00",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -9812,7 +9812,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-17" : [ {
@@ -9908,7 +9908,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -9921,7 +9921,7 @@
         "time" : "16:35",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "18:20",
@@ -10016,7 +10016,7 @@
         "time" : "16:35",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-03-31" : [ {
@@ -10118,7 +10118,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -10137,7 +10137,7 @@
         "time" : "16:35",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-08" : [ {
@@ -10232,7 +10232,7 @@
         "time" : "16:35",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-14" : [ {
@@ -10404,7 +10404,7 @@
         "time" : "16:35",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-28" : [ {
@@ -10468,7 +10468,7 @@
         "time" : "15:00",
         "subject" : "УВЭД",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -10563,7 +10563,7 @@
         "time" : "15:00",
         "subject" : "УВЭД",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -10582,7 +10582,7 @@
         "time" : "18:20",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "19:55",
@@ -10665,7 +10665,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -10729,7 +10729,7 @@
         "time" : "16:35",
         "subject" : "ЦГУ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-05-23" : [ {
@@ -10755,7 +10755,7 @@
         "time" : "15:00",
         "subject" : "ЭМ",
         "room" : "807",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
@@ -11023,7 +11023,7 @@
         "time" : "11:50",
         "subject" : "КЧ",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-01-22" : [ {
@@ -11411,7 +11411,7 @@
         "time" : "11:50",
         "subject" : "КЧ",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-02-18" : [ {
@@ -11681,7 +11681,7 @@
         "time" : "11:50",
         "subject" : "КЧ",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-01-22" : [ {
@@ -12069,7 +12069,7 @@
         "time" : "11:50",
         "subject" : "КЧ",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-02-18" : [ {
@@ -19914,13 +19914,13 @@
         "time" : "15:00",
         "subject" : "КТТ",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
         "subject" : "КТТ",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "18:20",
@@ -20047,7 +20047,7 @@
         "time" : "15:00",
         "subject" : "УФРС",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-22" : [ {
@@ -21582,20 +21582,20 @@
         "time" : "15:00",
         "subject" : "ЭП",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "16:35",
         "subject" : "ЭП",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       } ],
       "2026-04-18" : [ {
         "time" : "13:25",
         "subject" : "УФРС",
         "room" : "1109",
-        "type" : "lecture",
+        "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "15:00",
