@@ -1,7 +1,7 @@
 {
   "Управление информационными ресурсами" : {
     "lecture_room" : "",
-    "lab_subjects" : [ [ "ДМ", "916" ], [ "ИР", "505, 506" ], [ "ОС", "505, 506" ], [ "АиП", "513, 514" ] ],
+    "lab_subjects" : [ ],
     "1д2601УИР" : {
       "subjects" : [ {
         "abbreviation" : "СП",
@@ -62,7 +62,7 @@
         "subject" : "Архитектура вычислительных систем",
         "lecture_teacher" : "Перепелица Александр Александрович +375 (17) 229-51-98",
         "practice_teacher" : "",
-        "lab_teacher" : "Перепелица Александр Александрович +375 (17) 229-51-98, Судник Олег Андреевич ",
+        "lab_teacher" : "Перепелица Александр Александрович +375 (17) 229-51-98, Судник О.А.",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
@@ -2113,7 +2113,7 @@
         "subject" : "Архитектура вычислительных систем",
         "lecture_teacher" : "Перепелица Александр Александрович +375 (17) 229-51-98",
         "practice_teacher" : "",
-        "lab_teacher" : "Перепелица Александр Александрович +375 (17) 229-51-98, Судник Олег Андреевич ",
+        "lab_teacher" : "Перепелица Александр Александрович +375 (17) 229-51-98, Судник О.А.",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
@@ -4109,7 +4109,7 @@
         "abbreviation" : "ТВМС",
         "subject" : "Теория вероятности и математическая статистика",
         "lecture_teacher" : "Новыш Борис Владимирович +375 (17) 229-50-86",
-        "practice_teacher" : "Судник Олег Андреевич ",
+        "practice_teacher" : "Судник О.А.",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -4182,7 +4182,7 @@
         "subject" : "Операционные системы",
         "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "practice_teacher" : "",
-        "lab_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97, Судник Олег Андреевич ",
+        "lab_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97, Судник О.А.",
         "credit_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "exam_type" : "зачет",
         "exam_date" : "30-12-2026"
@@ -4191,7 +4191,7 @@
         "subject" : "Алгоритмизация и программирование",
         "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "practice_teacher" : "",
-        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Судник Олег Андреевич ",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Судник О.А.",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
@@ -4463,7 +4463,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4508,13 +4508,13 @@
       "2026-09-18" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4527,13 +4527,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -4571,7 +4571,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4622,26 +4622,26 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-09-26" : [ {
         "time" : "08:30",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
@@ -4685,7 +4685,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4736,13 +4736,13 @@
       "2026-10-02" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4755,7 +4755,7 @@
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -4793,7 +4793,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4844,13 +4844,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4863,13 +4863,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4907,7 +4907,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -4952,7 +4952,7 @@
       "2026-10-16" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -4965,13 +4965,13 @@
       "2026-10-17" : [ {
         "time" : "08:30",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -5009,7 +5009,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5060,13 +5060,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5079,13 +5079,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5123,7 +5123,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5174,13 +5174,13 @@
       "2026-10-30" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5199,7 +5199,7 @@
       }, {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5231,7 +5231,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5276,13 +5276,13 @@
       "2026-11-06" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5320,7 +5320,7 @@
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5371,13 +5371,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5390,13 +5390,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5473,13 +5473,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5492,13 +5492,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5524,7 +5524,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5569,20 +5569,20 @@
       "2026-11-27" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-11-28" : [ {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -5608,7 +5608,7 @@
       "2026-12-01" : [ {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
@@ -5621,7 +5621,7 @@
       "2026-12-02" : [ {
         "time" : "08:30",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -5634,7 +5634,7 @@
       "2026-12-03" : [ {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
@@ -5653,13 +5653,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5698,14 +5698,14 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
       "2026-12-09" : [ {
         "time" : "08:30",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -5724,14 +5724,14 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-12-11" : [ {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -5744,13 +5744,13 @@
       "2026-12-12" : [ {
         "time" : "08:30",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -5763,7 +5763,7 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5776,14 +5776,14 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
       "2026-12-16" : [ {
         "time" : "08:30",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -5808,7 +5808,7 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5821,7 +5821,7 @@
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5838,13 +5838,13 @@
       "2026-12-21" : [ {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -5914,7 +5914,7 @@
         "abbreviation" : "ТВМС",
         "subject" : "Теория вероятности и математическая статистика",
         "lecture_teacher" : "Новыш Борис Владимирович +375 (17) 229-50-86",
-        "practice_teacher" : "Судник Олег Андреевич ",
+        "practice_teacher" : "Судник О.А.",
         "lab_teacher" : "",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
@@ -5987,7 +5987,7 @@
         "subject" : "Операционные системы",
         "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "practice_teacher" : "",
-        "lab_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97, Судник Олег Андреевич ",
+        "lab_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97, Судник О.А.",
         "credit_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "exam_type" : "зачет",
         "exam_date" : "19-12-2026"
@@ -5996,7 +5996,7 @@
         "subject" : "Алгоритмизация и программирование",
         "lecture_teacher" : "Щербович Жанна Ивановна +375 (17) 229-51-97",
         "practice_teacher" : "",
-        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Судник Олег Андреевич ",
+        "lab_teacher" : "Пивоварчик Ирина Николаевна +375 (17) 229-51-96, Судник О.А.",
         "credit_teacher" : "",
         "exam_type" : "экзамен",
         "exam_date" : null
@@ -6262,7 +6262,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6313,13 +6313,13 @@
       "2026-09-18" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6332,13 +6332,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6370,7 +6370,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6427,26 +6427,26 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-09-26" : [ {
         "time" : "08:30",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6484,7 +6484,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6541,20 +6541,20 @@
       "2026-10-02" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-10-03" : [ {
         "time" : "08:30",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
@@ -6592,7 +6592,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6649,13 +6649,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6668,13 +6668,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6706,7 +6706,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6757,7 +6757,7 @@
       "2026-10-16" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6770,13 +6770,13 @@
       "2026-10-17" : [ {
         "time" : "08:30",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6808,7 +6808,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6865,13 +6865,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6884,13 +6884,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -6922,7 +6922,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -6979,13 +6979,13 @@
       "2026-10-30" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7004,7 +7004,7 @@
       }, {
         "time" : "13:25",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7030,7 +7030,7 @@
       "2026-11-03" : [ {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -7081,13 +7081,13 @@
       "2026-11-06" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7119,7 +7119,7 @@
       }, {
         "time" : "10:05",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -7176,13 +7176,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7195,13 +7195,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7278,13 +7278,13 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7297,13 +7297,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7323,7 +7323,7 @@
       "2026-11-24" : [ {
         "time" : "08:30",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -7374,13 +7374,13 @@
       "2026-11-27" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7393,7 +7393,7 @@
       }, {
         "time" : "13:25",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7419,7 +7419,7 @@
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -7432,14 +7432,14 @@
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-12-03" : [ {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
@@ -7458,13 +7458,13 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "13:25",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7503,7 +7503,7 @@
       }, {
         "time" : "13:25",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -7516,7 +7516,7 @@
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7529,14 +7529,14 @@
       }, {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-12-11" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -7549,13 +7549,13 @@
       "2026-12-12" : [ {
         "time" : "08:30",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7568,7 +7568,7 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
@@ -7581,7 +7581,7 @@
       }, {
         "time" : "13:25",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
@@ -7594,7 +7594,7 @@
       }, {
         "time" : "10:05",
         "subject" : "ОС",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -7613,14 +7613,14 @@
       }, {
         "time" : "11:50",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       } ],
       "2026-12-18" : [ {
         "time" : "11:50",
         "subject" : "АиП",
-        "room" : "513, 514",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
@@ -7643,13 +7643,13 @@
       "2026-12-21" : [ {
         "time" : "10:05",
         "subject" : "ИР",
-        "room" : "505, 506",
+        "room" : null,
         "type" : "lab",
         "subgroup" : null
       }, {
         "time" : "11:50",
         "subject" : "ДМ",
-        "room" : "916",
+        "room" : null,
         "type" : "practice",
         "subgroup" : null
       } ],
